@@ -3,6 +3,7 @@
 I drafted this document to answer questions I hear most frequently from new [R] users.  The focus is geared toward beginers who need to use [R] for datasmithing. There is more emphasis on data wrangling and little on stastical methodology.  
 
 The sections are:
+
 1. Begin - Intro to R
 2. The Wow Factor
 3. Data Structure Types
