@@ -1,7 +1,7 @@
 ---
 title: "Introduction to R"
-author: John & Joel
-date: 8/28/2016
+author: John Little
+date: 8/31/2016
 output:
   html_document:
     toc: true
@@ -10,7 +10,7 @@ output:
     theme: readable
     highlight: pygments
 ---
-<!-- render("Intro-to-R_ver6.Rmd", output_file = 'Intro2R.html', output_dir = "output"  ) -->
+<!-- render("Intro-to-R.Rmd", output_file = 'Intro2R.html', output_dir = "output"  ) -->
 ```{r}
 last.edited <- Sys.Date()
 preamble <- "This document was last updated"
@@ -48,7 +48,7 @@ require(stringi)
 ## Hadleyverse
 These days, much of what we try to accomplish within the data universe requires reshaping the data.  The various reshaping activies occur with almost astounding frequency among datasmiths.  Much of this activity has been identified as the _Split-Apply-Combine Strategy_[^7] by [Hadley Wickam](http://hadley.nz/).  To that end, Hadley Wickham has authored or coauthored many packages which augment the base-R functionality in support of more convenient data wrangling.  Hadley's efforts have been broadly adopted to the point of earning a nickname for the  suite of packages: "**Hadleyverse**."  You can read more about this in [The Hitchhiker's Guide to the Hadleverse](http://adolfoalvarez.cl/the-hitchhikers-guide-to-the-hadleyverse/)[^13] by Adolfo Alvarez. 
 
-We will use many of the Hadleyverse packages in this workshop.  A selection of Hadleyverse packages have been selected and applied in the code-chunk above.  (***jrljrl*** a note about mcgrider  ?!?)
+We will use many of the Hadleyverse packages in this workshop.  A selection of Hadleyverse packages have been selected and applied in the code-chunk above.
 
 # Begin - Intro to R {#begin}
 R is a popular programming environment with embedded statistical capabilities.  The [R] language is also popular as a data science toolset.  If you want to read more about the origins and definitions of [R] try starting at the [Wikipedia entry](https://en.wikipedia.org/wiki/R_(programming_language)).  Our focus in this introduction will develop your skills working in the [RStudio](https://www.rstudio.com/) IDE (development environment), data reshaping, generating cross tablulations, and generating rudimentary visualizations.   
