@@ -421,6 +421,12 @@ mosaicplot(table(smokerdata))
 * [Quick-R](http://www.statmethods.net/)
 
 
+#### Shareable under CC BY-NC-SA license 
+
+Data, presentation, and handouts are shareable under [CC BY-NC-SA license](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+![This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png "This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License")
+
 # References
 
 [^1]: [First Steps in R](http://venus.ifca.unican.es/Rintro/index.html) by Maite Ceballos (IFCA) & Nicolas Cardiel (UCM)
@@ -430,8 +436,3 @@ mosaicplot(table(smokerdata))
 [^7]: [ ^[PDF]^ The Split-Apply-Combine Strategy for Data Analysis](https://www.jstatsoft.org/article/view/.../v40i01.pdf) by H Wickham
 [^11]: [Plotting the Iris Data](http://www2.warwick.ac.uk/fac/sci/moac/people/students/peter_cock/r/iris_plots/) by Peter Cock
 [^13]: [The Hitchhiker's Guide to the Hadleverse](http://adolfoalvarez.cl/the-hitchhikers-guide-to-the-hadleyverse/)[^13] by Adolfo Alvarez
-
-
-
-
-
