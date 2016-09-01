@@ -1,0 +1,11 @@
+# 3 to graph a stock price[^1]
+
+## Make the graph
+```{r makegraph}
+require(quantmod)
+getSymbols("ANTM", auto.assign=TRUE)
+barChart(ANTM, subset = 'last 6 months')
+```
+
+####Credit: 
+[^1]: [5 Visualizations in 5 Minutes](http://www.computerworld.com/article/2893271/business-intelligence/5-data-visualizations-in-5-minutes-each-in-5-lines-or-less-of-r.html). ComputerWorld.com by Sharon Machlis
