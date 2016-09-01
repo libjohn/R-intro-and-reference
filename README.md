@@ -16,6 +16,6 @@ The sections are:
 10. Resources
 11. References
 
-I recommend reading the HTML version of the document, found in the [output]("output") directory.
+I recommend reading the HTML version of the document, found in the _output_ directory.
 
-Another good option is to load and run the Rmarkdown script, found in the [scripts]("scripts") directory.
+Another good option is to load and run the Rmarkdown script, found in the _scripts_ directory.
