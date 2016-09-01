@@ -252,7 +252,7 @@ div.tocify {
 preamble &lt;-<span class="st"> &quot;This document was last updated&quot;</span>
 modified.date &lt;-<span class="st"> </span><span class="kw">paste</span>(preamble, last.edited, <span class="dt">sep =</span> <span class="st">&quot; &quot;</span>)
 modified.date</code></pre></div>
-<pre><code>## [1] &quot;This document was last updated 2016-08-31&quot;</code></pre>
+<pre><code>## [1] &quot;This document was last updated 2016-09-01&quot;</code></pre>
 <p>The intended audience are students signed up for the <a href="http://library.duke.edu/data/">Data &amp; Visualization Department</a> <a href="http://library.duke.edu/data/news">Workshop Series</a>: <em>Introduction to R</em>. The first section of this document loads preliminary libraries. If you don’t need to know this now, <strong>Skip ahead</strong> to <a href="#begin">Begin - Intro to R</a>.</p>
 <div id="library-packages" class="section level2">
 <h2><span class="header-section-number">0.1</span> Library Packages</h2>
@@ -287,8 +287,8 @@ modified.date</code></pre></div>
 </div>
 <div id="the-wow-factor" class="section level1">
 <h1><span class="header-section-number">2</span> The Wow Factor</h1>
-<p>from <a href="http://www.computerworld.com/article/2893271/business-intelligence/5-data-visualizations-in-5-minutes-each-in-5-lines-or-less-of-r.html">5 data visualizations in 5 minutes: each in 5 lines or less of R</a> by Sharon Machlis<a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a></p>
-<p><a href="output/Wow-555.html">This is Cool. Click Here. Now!</a></p>
+<p>First, let’s check out some cook visualizations accomplished in [R] with with minimal code. The examples below come from <a href="http://www.computerworld.com/article/2893271/business-intelligence/5-data-visualizations-in-5-minutes-each-in-5-lines-or-less-of-r.html">5 data visualizations in 5 minutes: each in 5 lines or less of R</a> by Sharon Machlis<a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a></p>
+<p>There are 5 separate “Wow” factor visuzlisations in the <a href="../output">output directory</a>. Check them out. Or if you just want to see the code, look in the <a href="../scripts">scripts</a> directory. (for best viewing results clone the <a href="https://github.com/libjohn/R-intro-and-reference">github repository</a>)</p>
 </div>
 <div id="data-structure-types" class="section level1">
 <h1><span class="header-section-number">3</span> Data Structure Types</h1>
@@ -499,47 +499,47 @@ unempdata &lt;-<span class="st"> </span><span class="kw">read_csv</span>(fullpat
 <h2><span class="header-section-number">6.7</span> head() - show top rows</h2>
 <p>Identify the top rows of the data object.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">head</span>(unempdata)</code></pre></div>
-<pre><code>## # A tibble: 6 x 6
-##      ID recode: any discrimination lost my job underemployed
-##   &lt;int&gt;                      &lt;chr&gt;       &lt;chr&gt;         &lt;chr&gt;
-## 1     1                        Yes          No            No
-## 2     2                        Yes          No            No
-## 3     3                        Yes          No            No
-## 4     4                        Yes          No            No
-## 5     5                        Yes          No           Yes
-## 6     6                        Yes          No            No
-## # ... with 2 more variables: removed from direct contact with
-## #   clients &lt;chr&gt;, denied a promotion &lt;chr&gt;</code></pre>
+<pre><code>## # A tibble: 6 × 6
+##      ID `recode: any discrimination` `lost my job` underemployed
+##   &lt;int&gt;                        &lt;chr&gt;         &lt;chr&gt;         &lt;chr&gt;
+## 1     1                          Yes            No            No
+## 2     2                          Yes            No            No
+## 3     3                          Yes            No            No
+## 4     4                          Yes            No            No
+## 5     5                          Yes            No           Yes
+## 6     6                          Yes            No            No
+## # ... with 2 more variables: `removed from direct contact with
+## #   clients` &lt;chr&gt;, `denied a promotion` &lt;chr&gt;</code></pre>
 </div>
 <div id="tail---show-last-rows" class="section level2">
 <h2><span class="header-section-number">6.8</span> tail() - show last rows</h2>
 <p>Identify the bottom twenty rows of the data object</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">tail</span>(unempdata, <span class="dv">20</span>)   <span class="co"># in this case, show the last 20 rows</span></code></pre></div>
-<pre><code>## # A tibble: 20 x 6
-##       ID recode: any discrimination    lost my job  underemployed
-##    &lt;int&gt;                      &lt;chr&gt;          &lt;chr&gt;          &lt;chr&gt;
-## 1     31                        Yes             No             No
-## 2     32                        Yes            Yes             No
-## 3     33                        Yes Not Applicable Not Applicable
-## 4     34                        Yes Not Applicable Not Applicable
-## 5     35                        Yes Not Applicable Not Applicable
-## 6     36                        Yes             No             No
-## 7     37                        Yes Not Applicable Not Applicable
-## 8     38                        Yes             No            Yes
-## 9     39                        Yes             No            Yes
-## 10    40                        Yes             No            Yes
-## 11    41                        Yes             No Not Applicable
-## 12    42                        Yes             No             No
-## 13    43                        Yes             No             No
-## 14    44                        Yes            Yes            Yes
-## 15    45                        Yes            Yes            Yes
-## 16    46                        Yes            Yes             No
-## 17    47                        Yes             No            Yes
-## 18    48                        Yes             No             No
-## 19    49                        Yes             No             No
-## 20    50                        Yes             No             No
-## # ... with 2 more variables: removed from direct contact with
-## #   clients &lt;chr&gt;, denied a promotion &lt;chr&gt;</code></pre>
+<pre><code>## # A tibble: 20 × 6
+##       ID `recode: any discrimination`  `lost my job`  underemployed
+##    &lt;int&gt;                        &lt;chr&gt;          &lt;chr&gt;          &lt;chr&gt;
+## 1     31                          Yes             No             No
+## 2     32                          Yes            Yes             No
+## 3     33                          Yes Not Applicable Not Applicable
+## 4     34                          Yes Not Applicable Not Applicable
+## 5     35                          Yes Not Applicable Not Applicable
+## 6     36                          Yes             No             No
+## 7     37                          Yes Not Applicable Not Applicable
+## 8     38                          Yes             No            Yes
+## 9     39                          Yes             No            Yes
+## 10    40                          Yes             No            Yes
+## 11    41                          Yes             No Not Applicable
+## 12    42                          Yes             No             No
+## 13    43                          Yes             No             No
+## 14    44                          Yes            Yes            Yes
+## 15    45                          Yes            Yes            Yes
+## 16    46                          Yes            Yes             No
+## 17    47                          Yes             No            Yes
+## 18    48                          Yes             No             No
+## 19    49                          Yes             No             No
+## 20    50                          Yes             No             No
+## # ... with 2 more variables: `removed from direct contact with
+## #   clients` &lt;chr&gt;, `denied a promotion` &lt;chr&gt;</code></pre>
 </div>
 <div id="summary---get-summary-statistics-when-available" class="section level2">
 <h2><span class="header-section-number">6.9</span> summary() - get summary statistics when available</h2>
@@ -602,21 +602,21 @@ unempdata &lt;-<span class="st"> </span><span class="kw">read_csv</span>(fullpat
 <h2><span class="header-section-number">7.1</span> tbl_df</h2>
 <p><code>tbl_df()</code> provides a convenient summary of the characteristics of a data frame object. This function has similarity with <code>str()</code> and many of the functions covered in the preceding section.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">tbl_df</span>(unempdata)</code></pre></div>
-<pre><code>## # A tibble: 50 x 6
-##       ID recode: any discrimination    lost my job  underemployed
-##    &lt;int&gt;                      &lt;chr&gt;          &lt;chr&gt;          &lt;chr&gt;
-## 1      1                        Yes             No             No
-## 2      2                        Yes             No             No
-## 3      3                        Yes             No             No
-## 4      4                        Yes             No             No
-## 5      5                        Yes             No            Yes
-## 6      6                        Yes             No             No
-## 7      7                        Yes            Yes Not Applicable
-## 8      8                        Yes Not Applicable Not Applicable
-## 9      9                        Yes             No Not Applicable
-## 10    10                        Yes             No             No
-## # ... with 40 more rows, and 2 more variables: removed from direct contact
-## #   with clients &lt;chr&gt;, denied a promotion &lt;chr&gt;</code></pre>
+<pre><code>## # A tibble: 50 × 6
+##       ID `recode: any discrimination`  `lost my job`  underemployed
+##    &lt;int&gt;                        &lt;chr&gt;          &lt;chr&gt;          &lt;chr&gt;
+## 1      1                          Yes             No             No
+## 2      2                          Yes             No             No
+## 3      3                          Yes             No             No
+## 4      4                          Yes             No             No
+## 5      5                          Yes             No            Yes
+## 6      6                          Yes             No             No
+## 7      7                          Yes            Yes Not Applicable
+## 8      8                          Yes Not Applicable Not Applicable
+## 9      9                          Yes             No Not Applicable
+## 10    10                          Yes             No             No
+## # ... with 40 more rows, and 2 more variables: `removed from direct
+## #   contact with clients` &lt;chr&gt;, `denied a promotion` &lt;chr&gt;</code></pre>
 </div>
 <div id="rename---edit-column-names" class="section level2">
 <h2><span class="header-section-number">7.2</span> rename() - edit column names</h2>
@@ -657,7 +657,7 @@ unempdata &lt;-<span class="st"> </span><span class="kw">read_csv</span>(fullpat
 <pre><code>## [1] &quot;character&quot;</code></pre>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">unempdata$no_job &lt;-<span class="st"> </span><span class="kw">as.logical</span>(unempdata$no_job)
 <span class="kw">tbl_df</span>(unempdata)</code></pre></div>
-<pre><code>## # A tibble: 50 x 6
+<pre><code>## # A tibble: 50 × 6
 ##       ID discriminate no_job  underemployed     no_clients      promotion
 ##    &lt;chr&gt;        &lt;chr&gt;  &lt;lgl&gt;          &lt;chr&gt;          &lt;chr&gt;          &lt;chr&gt;
 ## 1    001          Yes  FALSE             No            Yes             No
@@ -690,7 +690,7 @@ unempdata &lt;-<span class="st"> </span><span class="kw">read_csv</span>(fullpat
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">data</span>(<span class="st">&quot;mtcars&quot;</span>)      <span class="co"># load the onboard mtcars dataset, part of base-R </span>
 ?mtcars           <span class="co"># get more information about this dataset in the help pane</span>
 <span class="kw">tbl_df</span>(mtcars)</code></pre></div>
-<pre><code>## # A tibble: 32 x 11
+<pre><code>## # A tibble: 32 × 11
 ##      mpg   cyl  disp    hp  drat    wt  qsec    vs    am  gear  carb
 ## *  &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
 ## 1   21.0     6 160.0   110  3.90 2.620 16.46     0     1     4     4
@@ -709,7 +709,7 @@ unempdata &lt;-<span class="st"> </span><span class="kw">read_csv</span>(fullpat
 <p>Make a custom data frame called “four.six” that consists of only the four and six cylinder cars</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">four.six &lt;-<span class="st"> </span><span class="kw">filter</span>(mtcars, mtcars$cyl &lt;<span class="dv">8</span>)      <span class="co">#filter out 8 cylinder cars and make a new data.frame &quot;four.six&quot;</span>
 <span class="kw">tbl_df</span>(four.six)                               <span class="co">#Alas!  now rownames</span></code></pre></div>
-<pre><code>## # A tibble: 18 x 11
+<pre><code>## # A tibble: 18 × 11
 ##      mpg   cyl  disp    hp  drat    wt  qsec    vs    am  gear  carb
 ##    &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
 ## 1   21.0     6 160.0   110  3.90 2.620 16.46     0     1     4     4
@@ -751,7 +751,7 @@ four.six &lt;-<span class="st"> </span><span class="kw">mutate</span>(four.six,
   <span class="dt">wtdisp =</span> disp /<span class="st"> </span>wt
 )                                                            <span class="co"># augment data</span>
 <span class="kw">tbl_df</span>(four.six)</code></pre></div>
-<pre><code>## # A tibble: 18 x 8
+<pre><code>## # A tibble: 18 × 8
 ##         makeModel   mpg   cyl  disp    hp  drat    wt   wtdisp
 ##             &lt;chr&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;    &lt;dbl&gt;
 ## 1       Mazda RX4  21.0     6 160.0   110  3.90 2.620 61.06870
@@ -834,7 +834,7 @@ smokerdata &lt;-<span class="st"> </span><span class="kw">read_csv</span>(<span 
 ##   SES = col_character()
 ## )</code></pre>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">tbl_df</span>(smokerdata)            <span class="co"># Note the structure of the data</span></code></pre></div>
-<pre><code>## # A tibble: 356 x 2
+<pre><code>## # A tibble: 356 × 2
 ##     Smoke   SES
 ##     &lt;chr&gt; &lt;chr&gt;
 ## 1  former  High
@@ -875,7 +875,7 @@ smokerdata &lt;-<span class="st"> </span><span class="kw">read_csv</span>(<span 
 <p><code>plot()</code> will generate a scatter plot. To demonstrate this I’ll introduce a new dataset, Egar Anderson’s Iris Data. The data contains the measurements in centimeters of various flowers: variable sepal and petal measurements in length and width for 50 flowers from each of 3 species of iris. You can find more information about this dataset by typing <code>?iris</code> in the console pane. The scatter plot example comes from Peter Cock’s guide to plotting in [R]<a href="#fn7" class="footnoteRef" id="fnref7"><sup>7</sup></a> which will cover the <code>plot</code> command in greater detail.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">data</span>(<span class="st">&quot;iris&quot;</span>)        <span class="co"># get the iris data</span>
 <span class="kw">tbl_df</span>(iris)        <span class="co"># get some summary characteristics of the data frame</span></code></pre></div>
-<pre><code>## # A tibble: 150 x 5
+<pre><code>## # A tibble: 150 × 5
 ##    Sepal.Length Sepal.Width Petal.Length Petal.Width Species
 ##           &lt;dbl&gt;       &lt;dbl&gt;        &lt;dbl&gt;       &lt;dbl&gt;  &lt;fctr&gt;
 ## 1           5.1         3.5          1.4         0.2  setosa

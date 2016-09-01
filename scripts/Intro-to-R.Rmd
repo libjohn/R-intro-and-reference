@@ -54,10 +54,9 @@ We will use many of the Hadleyverse packages in this workshop.  A selection of H
 R is a popular programming environment with embedded statistical capabilities.  The [R] language is also popular as a data science toolset.  If you want to read more about the origins and definitions of [R] try starting at the [Wikipedia entry](https://en.wikipedia.org/wiki/R_(programming_language)).  Our focus in this introduction will develop your skills working in the [RStudio](https://www.rstudio.com/) IDE (development environment), data reshaping, generating cross tablulations, and generating rudimentary visualizations.   
 
 # The Wow Factor
-from [5 data visualizations in 5 minutes: each in 5 lines or less of R](http://www.computerworld.com/article/2893271/business-intelligence/5-data-visualizations-in-5-minutes-each-in-5-lines-or-less-of-r.html) by Sharon Machlis[^5]
+First, let's check out some cook visualizations accomplished in [R] with with minimal code.  The examples below come from [5 data visualizations in 5 minutes: each in 5 lines or less of R](http://www.computerworld.com/article/2893271/business-intelligence/5-data-visualizations-in-5-minutes-each-in-5-lines-or-less-of-r.html) by Sharon Machlis[^5]
 
-[This is Cool.  Click Here.  Now!](output/Wow-555.html)
-
+There are 5 separate "Wow" factor visuzlisations in the [output directory](../output).  Check them out.  Or if you just want to see the code, look in the [scripts](../scripts) directory.  (for best viewing results clone the [github repository](https://github.com/libjohn/R-intro-and-reference))
 
 
 # Data Structure Types 
@@ -305,6 +304,7 @@ tbl_df(four.six)                               #Alas!  now rownames
 2. `select()` only a few specific columns for my data frame
 3. `filter()` out the 8 cylinder vehicles with select
 4. `mutate()` - add a column by calculating new custom values for a new variable
+
 ```{r}
 four.six <- mutate(mtcars, rownames(mtcars))                 #add the row names as a separate column
 four.six <- rename(four.six, makeModel = `rownames(mtcars)`) #rename the added, auto-named column
