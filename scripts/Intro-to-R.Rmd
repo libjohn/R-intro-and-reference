@@ -1,7 +1,6 @@
 ---
 title: "Introduction to R"
 author: John Little
-date: 8/31/2016
 output:
   html_document:
     toc: true
@@ -18,7 +17,7 @@ modified.date <- paste(preamble, last.edited, sep = " ")
 modified.date
 ```
 
-The intended audience are students signed up for the [Data & Visualization Department](http://library.duke.edu/data/) [Workshop Series](http://library.duke.edu/data/news): _Introduction to R_.  The first section of this document loads preliminary libraries.  If you don't need to know this now, **Skip ahead**  to [Begin - Intro to R](#begin).
+The intended audience are newbies who just wanna start playing around with with [R].  The first section below simply loads preliminary [R] packages.  If you don't need to know this now, **Skip ahead**  to [Begin - Intro to R](#begin).
 
 ## Library Packages
 Load all the packages for this tutorial. Strictly speaking this is a two step process:  (1) install the package; (2) load the package.  I'll include the install commands for [reproducibility](https://en.wikipedia.org/wiki/Reproducibility), but you can probably skip to simply loading the packages.  If any package  doesn't load, you can uncomment the "install.packages" command for that package (remove the `#` preceding the relevant `install.packages` command.)  Then, rerun the relevant code-chucks.  
@@ -54,7 +53,7 @@ We will use many of the Hadleyverse packages in this workshop.  A selection of H
 R is a popular programming environment with embedded statistical capabilities.  The [R] language is also popular as a data science toolset.  If you want to read more about the origins and definitions of [R] try starting at the [Wikipedia entry](https://en.wikipedia.org/wiki/R_(programming_language)).  Our focus in this introduction will develop your skills working in the [RStudio](https://www.rstudio.com/) IDE (development environment), data reshaping, generating cross tablulations, and generating rudimentary visualizations.   
 
 # The Wow Factor
-First, let's check a supper niffty cool visualizations accomplished in [R] with with minimal code.  The example  below is inspired and derived from by [5 data visualizations in 5 minutes: each in 5 lines or less of R](http://www.computerworld.com/article/2893271/business-intelligence/5-data-visualizations-in-5-minutes-each-in-5-lines-or-less-of-r.html) by Sharon Machlis[^5]
+First, let's check out a supper niffty cool visualizations accomplished in [R] with with minimal code.  The example  below is inspired and derived from by [5 data visualizations in 5 minutes: each in 5 lines or less of R](http://www.computerworld.com/article/2893271/business-intelligence/5-data-visualizations-in-5-minutes-each-in-5-lines-or-less-of-r.html) by Sharon Machlis[^5]
 
 ```{r coolmap}
 require(readr) ; require(leaflet); library(magrittr)
@@ -76,16 +75,18 @@ The following image, from [_First Steps in R_](http://venus.ifca.unican.es/Rintr
 
 ![R Data Types](http://venus.ifca.unican.es/Rintro/_images/dataStructuresNew.png)
 
-As you can see the object orientation of [R] allows you to be specific, atmostic, about object characteristics.  These characteristics are called _Data Types_ or _Data Structures_. This level of specificity can yield sophisticated outcome but may also lead to confusion, especially with those learning R.  For this workshop we'll stick with two very common data types:  Vectors & Data Frames.
+The object orientation of [R] allows you to be specific, atmostic, about object characteristics.  These characteristics are called _Data Types_ or _Data Structures_. This level of specificity can yield sophisticated outcome but may also lead to confusion, especially with those learning R.  For this workshop we'll stick with two very common data types:  Vectors & Data Frames.
 
 ## Vectors and Data Frames
  
-* **Vectors** are one dimensional arrays in which all values must of the same type:  _Numeric_, _Complex_, _Logical_, or  _Character_
+* **Vectors** are one dimensional arrays in which all values must of the same type.  That is, in a vector, each element of the vector homogeneous; they must be one of the following types:  _Numeric_, _Complex_, _Logical_, or  _Character_
 * _Factors_ are vectors used when working with [categorical variables](https://en.wikipedia.org/wiki/Categorical_variable).
-* **Data Frames** are generalized matrices.  Different columns can store different types including vectors, lists, Factors, Arrays, and Functions.
+* **Data Frames** are generalized matrices.  Different columns can store different types including vectors, lists, Factors, Arrays, and Functions.  You want Heterogeneity?  Data frames are where that starts.
 * [More Data Types](http://venus.ifca.unican.es/Rintro/dataStruct.html)
 
-For now, remember you can only store one data type in a Vector *but* you can store multiple vector types in a data frame.  I encourage you to read more about Data Types, later.  Simply put, many [R] road blocks occur when the [R] programmer misunderstands the data structure of a particular data object.  On the other hand, if you're working with statistics, this level of atomization brings critical and useful functionality.
+**tl;dr?**
+
+**For now, remember** you can **only store one data type** in a **vector**, *but* you can store multiple vectors, vectors of different data types, in a data frame.  I encourage you to read more about Data Types, later.  Simply put, many [R] road blocks occur when the [R] programmer misunderstands the data structure of a particular data object.  On the other hand, if you're working with statistics, this level of atomization brings critical and useful functionality.
 
 
 # Variable Assignment
@@ -125,7 +126,7 @@ bar
      + `download.file("https://ndownloader.figshare.com/files/5909145?private_link=50e77f2201ac90141e4c", "foo.csv")`
 * load a file [via http](#httpload) -- which you will do later in this workshop.  
 
-For now, it's also important to understand how [R] works with your local file system.  
+It's also important to understand how [R] works with your local file system.  
 
 
 ## [R] and your file system
@@ -141,7 +142,7 @@ getwd()
 
 
 ## Construct filepath/filename variable {#getwd}
-In this section, practice working with your file-system environment variables and assigning those values to object names.
+Practice working with your file-system environment variables and assigning those values to object names.
 ```{r}
 DIR <- getwd()
 filename <- "UnempData.csv"
@@ -153,9 +154,9 @@ fullpath                          #display the value of fullpath in the console
 ## Where is my data? {#upload}
 If you upload data using any of the following methods in RStudio then you can ignore the preceding about manipulating the files-system and directory structure.
 
-* From the Environment/History Pane
+* From the Environment/History **Pane** ([screenshot](http://paulyeo21.github.io/cell_bio_gen_lab/images/331f4ea3.rstudio_pane.png))
       + `Environment Tab > Import Datasets`
-* From the Help Pane
+* From the Help **Pane**
       + `Files Tab > Upload`
 * From the File menu bar
       + `File > Open File`
@@ -173,11 +174,11 @@ unempdata <- read_csv(fullpath)
 
 ## Other data loaders
 
-There are many other types of data you may want to load such as SAS, SPSS, Stata, Excel, Google Sheets, etc.  Loading packages are available to support many methods.  Some of the more common data types are supported by the following packages:
+There are many other types of data you may want to load such as SAS, SPSS, Stata, Excel, Google Sheets, etc.  Loading packages are available to support many methods.  Some of the more common "file formats" are supported by the following packages:
 
-* foreign - load data from SPSS, SAS, and other Statistical Analysis applications
-* readxl - load Excel data
-* googlesheets - load data from Google Sheets
+* *foreign* - load data from SPSS, SAS, and other Statistical Analysis applications
+* *readxl* - load Excel data
+* *googlesheets* - load data from Google Sheets
 
 # Identify and Display
 There are various methods of identifying the descriptive characteristics of data objects in R.
@@ -327,6 +328,20 @@ four.six <- mutate(four.six,
 )                                                            # augment data
 tbl_df(four.six)
 ```
+### Magrittr - Command pipes
+
+Some folks say there's a better way to put it all together, that's using the magrittr package
+```{r magrittr}
+mtcars %>% 
+  mutate(rownames(mtcars)) %>% 
+  rename(makeModel = `rownames(mtcars)`) %>% 
+  filter(cyl >= 4, cyl <=6) %>% 
+  select(makeModel, mpg:wt) %>% 
+  mutate(dispWt = disp / wt) %>% 
+  arrange(cyl, desc(mpg), hp, wt)-> grtr.46
+
+grtr.46
+```
 
 
 ## Arrange the data output
@@ -343,6 +358,8 @@ Now it's time for some advanced string manipulation to set the data up for [Visu
 # library(stringr)
 four.six$make <- word(four.six$makeModel, 1)
 
+four.six$make         # dipsplay the maker
+
 # ignore this next line although it may come in handy to some.
 # str_extract(four.six$makeModel, "\\w+\\s(.*)")
 ```
@@ -351,6 +368,8 @@ four.six$make <- word(four.six$makeModel, 1)
 ```{r}
 # library(stringi)
 four.six$model <- stri_match_last_regex(four.six$makeModel, "\\w+\\s(.*)", cg_missing = "")[,2]
+
+four.six$model      #display the model
 
 # ignore this next two lines although it may come in handy to some.
 # stri_match_all_regex(four.six$makeModel, "\\w+\\s(.*)")[[1]][2]
@@ -378,6 +397,15 @@ As noted above, `table()` is similar to `unique()` except that it not only revea
 table(smokerdata)            # Create a cross tablulation
 table(smokerdata$Smoke)      # Gather frequency data for a single variable
 ```
+
+## count()
+```{r count}
+# This one is cool...
+
+tbl_df(four.six) %>% 
+  count(hp)
+```
+
 
 # Visualizations {#viz}
 
