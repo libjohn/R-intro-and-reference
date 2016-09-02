@@ -369,6 +369,18 @@ table(smokerdata$Smoke)      # Gather frequency data for a single variable
 
 # Visualizations {#viz}
 
+## Basic Vis
+
+When in the data exploratory phase, you can quickly generate very basic visualizations with minmal effort.  Your visualiations then appear in the Viewer Pane.  While you may not want to share these visualizations, the simplicity of generating quick histograms can help you understand your data as you begin thinking about your analysis.
+
+Type these commans into your console.
+
+To generate
+
+* Histogram:  `hist(mtcars$mpg)`
+* Scatterplot: `plot(mtcars$wt, mtcars$mpg)`
+* Barplot:  `barplot(table(mtcars$cyl))`
+
 ## plot() - Scatter Plot
 `plot()` will generate a scatter plot.  To demonstrate this I'll introduce a new dataset, Egar Anderson's Iris Data.  The data contains the measurements in centimeters of various flowers: variable sepal and petal measurements in length and width for 50 flowers from each of 3 species of iris. You can find more information about this dataset by typing `?iris` in the console pane.  The scatter plot example comes from Peter Cock's guide to plotting in [R][^11] which will cover the `plot` command in greater detail. 
 
@@ -381,6 +393,7 @@ table(iris$Species, iris$Petal.Width)   # create a cross tablulation
 # http://www2.warwick.ac.uk/fac/sci/moac/people/students/peter_cock/r/iris_plots/
 plot(iris$Petal.Length, iris$Petal.Width, main="Edgar Anderson's Iris Data")
 ```
+
 
 ## hist() - Histogram
 ```{r}
@@ -399,8 +412,41 @@ barplot(table(sixcyls$make), horiz = TRUE)
 mosaicplot(table(smokerdata))
 ```
 
-## ggPlot
-> here
+## Better Vis (i.e. ggPlot2)
+### ggplot2 Scatter Plot
+```{r ggplot}
+ggplot(mtcars, aes(x=wt, y=mpg)) +
+  geom_point(shape = 1) + 
+  geom_smooth(method = lm)
+```
+
+[more info on ggplot scatterplots](http://www.cookbook-r.com/Graphs/Scatterplots_(ggplot2)/)
+
+
+### ggplot2 Bar Graph
+```{r ggbarplot}
+ggplot(data=mtcars, aes(x=cyl)) +
+    geom_bar(stat="count")
+```
+
+[More Information on ggplot bar and line graphs](http://www.cookbook-r.com/Graphs/Bar_and_line_graphs_(ggplot2)/)
+
+### ggplot2 Histogram
+```{r gghist}
+ggplot(mtcars, aes(x=mpg)) +
+    geom_histogram(binwidth=1, colour="black", fill="white")
+```
+
+[More info on ggplot histograms](http://www.cookbook-r.com/Graphs/Plotting_distributions_(ggplot2))
+
+#### ggplot2 Line graph
+```{r linegraph}
+ggplot(data=mtcars, aes(x=mpg, y=wt, group=cyl, colour=cyl)) +
+    geom_line() +
+    geom_point()
+```
+
+[More info on Bargraphs](http://www.cookbook-r.com/Graphs/Bar_and_line_graphs_(ggplot2)/)
 
 # Resources
 
