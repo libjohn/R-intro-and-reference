@@ -2,8 +2,11 @@
 
 ## Load Data
 ```{r loaddata}
-file <- "https://opendata.socrata.com/api/views/ddym-zvjk/rows.csv"
-starbucks <- read.csv(file)
+starbucks <- read_csv("../data/NC_Starbucks_Locations.csv")
+
+# Original documentation provided the following 2-line method and gathered data for the whole US.  But there were two problems affecting convenience.  One, the data were large (over 10,000 rows) causing the map-making package, leaflet, to be painfully slow.  Two, the data were so profoundly messy that I decided to clean it in openrefine (<http://openrefine.org>), then limit the data to NC.  As demonstrated below, you can import this data into [R] without my initial cleaning step.  
+## file <- "https://opendata.socrata.com/api/views/ddym-zvjk/rows.csv"
+## starbucks <- read.csv(file)
 ```
 
 ## Make the Map

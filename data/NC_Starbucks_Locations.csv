@@ -1,0 +1,688 @@
+Brand,Store Number,Name,Ownership Type,Facility ID,Features - Products,Features - Service,Features - Stations,Food Region,Venue Type,Phone Number,Location,Street Address,Street Line 1,Street Line 2,City,State,Zip,Country,Coordinates,Latitude,Longitude,Insert Date
+Starbucks,72949,Farm Fresh-Elizabeth City #469,Licensed,15736,,,,9999,Unknown,252-331-1368,"691 S Hughes Blvd
+Elizabeth City, NC 27909-4530
+(36.290986, -76.25259)",691 S Hughes Blvd,691 S Hughes Blvd,,Elizabeth City,NC,27909-4530,US,"(36.290986, -76.25259)",36.290986,-76.25259,06/22/2012 06:31:38 PM
+Starbucks,9272,Roanoke Rapids,Company Owned,14789,"Lunch, Oven-warmed Food","Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,252-533-5900,"298 Premier Blvd.
+Roanoke Rapids, NC 27870-5076
+(36.4324, -77.6388)",298 Premier Blvd.,298 Premier Blvd.,,Roanoke Rapids,NC,27870-5076,US,"(36.4324, -77.6388)",36.4324,-77.6388,06/22/2012 06:31:38 PM
+Starbucks,13258,Kitty Hawk,Company Owned,10765,Oven-warmed Food,Starbucks Card Mobile,,9999,Unknown,252-255-0790,"5597-A North Croatan Highway
+Kitty Hawk, NC 27949-4090
+(36.098345, -75.724577)",5597-A North Croatan Highway,5597-A North Croatan Highway,,Kitty Hawk,NC,27949-4090,US,"(36.098345, -75.724577)",36.098345,-75.724577,06/22/2012 06:31:38 PM
+Starbucks,76569,Target Rocky Mount T-962,Licensed,10147,,Starbucks Card Mobile,,9999,Unknown,252-443-1195,"731 Sutters Creek Blvd
+Rocky Mount, NC 27804-8452
+(35.97197, -77.813097)",731 Sutters Creek Blvd,731 Sutters Creek Blvd,,Rocky Mount,NC,27804-8452,US,"(35.97197, -77.813097)",35.97197,-77.813097,06/22/2012 06:31:47 PM
+Starbucks,76100,Super Target Wake Forest ST-1504,Licensed,12631,,Starbucks Card Mobile,,9999,Unknown,919-761-1001,"12000 Retail Dr
+Wake Forest, NC 27587-7353
+(35.974413, -78.541991)",12000 Retail Dr,12000 Retail Dr,,Wake Forest,NC,27587-7353,US,"(35.974413, -78.541991)",35.974413,-78.541991,06/22/2012 06:31:47 PM
+Starbucks,2970,Wakefield Commons,Company Owned,16246,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,919-453-1010,"10760 Wakefield Commons Dr., Ste. 109
+Raleigh, NC 27614-8437
+(35.942808, -78.540942)","10760 Wakefield Commons Dr., Ste. 109",10760 Wakefield Commons Dr.,Ste. 109,Raleigh,NC,27614-8437,US,"(35.942808, -78.540942)",35.942808,-78.540942,06/22/2012 06:31:49 PM
+Starbucks,8495,Village @ Falls Pointe,Company Owned,15406,"Oven-warmed Food, Sirena Espresso Machine","Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,919-847-1363,"9630 Falls of the Neuse Road, 101
+Raleigh, NC 27615-2434
+(35.904805, -78.601879)","9630 Falls of the Neuse Road, 101",9630 Falls of the Neuse Road,101,Raleigh,NC,27615-2434,US,"(35.904805, -78.601879)",35.904805,-78.601879,06/22/2012 06:31:49 PM
+Starbucks,13656,Guess Road,Company Owned,18342,Oven-warmed Food,Starbucks Card Mobile,Drive-Through,9999,Unknown,919-471-2957,"3801 Guess Road
+Durham, NC 27705-1505
+(36.05782, -78.929413)",3801 Guess Road,3801 Guess Road,,Durham,NC,27705-1505,US,"(36.05782, -78.929413)",36.05782,-78.929413,06/22/2012 06:31:49 PM
+Starbucks,16019,Six Forks & Strickland,Company Owned,66396,Oven-warmed Food,Wireless Hotspot,Drive-Through,0,Unknown,919-845-4566,"9441 Strickland Road, Unit R06
+Raleigh, NC 27615-1934
+(35.900957, -78.652882)","9441 Strickland Road, Unit R06",9441 Strickland Road,Unit R06,Raleigh,NC,27615-1934,US,"(35.900957, -78.652882)",35.900957,-78.652882,06/22/2012 06:31:49 PM
+Starbucks,76118,Super Target Raleigh ST-1826,Licensed,12802,,Starbucks Card Mobile,,9999,Unknown,919-790-1024,"7900 Old Wake Forest Rd
+Raleigh, NC 27616-3319
+(35.86614, -78.567968)",7900 Old Wake Forest Rd,7900 Old Wake Forest Rd,,Raleigh,NC,27616-3319,US,"(35.86614, -78.567968)",35.86614,-78.567968,06/22/2012 06:31:49 PM
+Starbucks,8529,Triangle Towne Mall,Company Owned,15411,,Starbucks Card Mobile,,9999,Unknown,919-792-2227,"5959 Triangle Town Boulevard, Unit CL1136
+Raleigh, NC 27616-3268
+(35.87, -78.5861)","5959 Triangle Town Boulevard, Unit CL1136",5959 Triangle Town Boulevard,Unit CL1136,Raleigh,NC,27616-3268,US,"(35.87, -78.5861)",35.87,-78.5861,06/22/2012 06:31:49 PM
+Starbucks,8270,Stonehenge,Company Owned,8974,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,919-846-0633,"7498 Creedmor Road
+Raleigh, NC 27613-1664
+(35.887792, -78.678749)",7498 Creedmor Road,7498 Creedmor Road,,Raleigh,NC,27613-1664,US,"(35.887792, -78.678749)",35.887792,-78.678749,06/22/2012 06:31:49 PM
+Starbucks,79410,Kroger - Durham #332,Licensed,10181,,,,9999,Unknown,919-383-2249,"3457 Hillsborough Road
+Durham, NC 27705-3008
+(36.018821, -78.948098)",3457 Hillsborough Road,3457 Hillsborough Road,,Durham,NC,27705-3008,US,"(36.018821, -78.948098)",36.018821,-78.948098,06/22/2012 06:31:49 PM
+Starbucks,8171,Duke University Hospital,Licensed,19477,Oven-warmed Food,Wireless Hotspot,,0,Unknown,919-681-9702,"2301 Erwin Rd
+Durham, NC 27705-4699
+(36.008233, -78.937415)",2301 Erwin Rd,2301 Erwin Rd,,Durham,NC,27705-4699,US,"(36.008233, -78.937415)",36.008233,-78.937415,06/22/2012 06:31:49 PM
+Starbucks,76134,Super Target-Durham ST-1872,Licensed,9146,,Starbucks Card Mobile,,9999,Unknown,919-765-0008,"4037 Chapel Hill Blvd
+Durham, NC 27707-2516
+(35.966583, -78.958499)",4037 Chapel Hill Blvd,4037 Chapel Hill Blvd,,Durham,NC,27707-2516,US,"(35.966583, -78.958499)",35.966583,-78.958499,06/22/2012 06:31:49 PM
+Starbucks,8220,The Commons - HT,Company Owned,11430,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,919-403-6676,"1817 Martin Luther King Jr. Pkwy
+Durham, NC 27707-3585
+(35.960793, -78.958121)",1817 Martin Luther King Jr. Pkwy,1817 Martin Luther King Jr. Pkwy,,Durham,NC,27707-3585,US,"(35.960793, -78.958121)",35.960793,-78.958121,06/22/2012 06:31:49 PM
+Starbucks,8875,Alexander Place,Company Owned,12299,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,919-957-9587,"7854 Alexander Promenade Pl., Bldg. H, Ste. 1
+Raleigh, NC 27617-7833
+(35.9022, -78.7894)","7854 Alexander Promenade Pl., Bldg. H, Ste. 1",7854 Alexander Promenade Pl.,"Bldg. H, Ste. 1",Raleigh,NC,27617-7833,US,"(35.9022, -78.7894)",35.9022,-78.7894,06/22/2012 06:31:49 PM
+Starbucks,9715,Mount Moriah,Company Owned,17878,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,919-493-2471,"5319 New Hope Commons Dr, Suite 105
+Durham, NC 27707-9610
+(35.954334, -78.993956)","5319 New Hope Commons Dr, Suite 105",5319 New Hope Commons Dr,Suite 105,Durham,NC,27707-9610,US,"(35.954334, -78.993956)",35.954334,-78.993956,06/22/2012 06:31:49 PM
+Starbucks,13203,"Parkwest Crossing, NC",Company Owned,17290,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,919-293-0232,"4834 NC Hwy 55
+Durham, NC 27713-2257
+(35.899313, -78.897146)",4834 NC Hwy 55,4834 NC Hwy 55,,Durham,NC,27713-2257,US,"(35.899313, -78.897146)",35.899313,-78.897146,06/22/2012 06:31:49 PM
+Starbucks,73929,Harris Teeter - Durham #224,Licensed,7681,,,,9999,Unknown,919-403-0794,"1125 West North Carolina 54 Hwy
+Durham, NC 27707-5715
+(35.918291, -78.958331)",1125 West North Carolina 54 Hwy,1125 West North Carolina 54 Hwy,,Durham,NC,27707-5715,US,"(35.918291, -78.958331)",35.918291,-78.958331,06/22/2012 06:31:49 PM
+Starbucks,9361,Renaissance Center at South Point,Company Owned,15761,"Oven-warmed Food, Sirena Espresso Machine","Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,919-544-4132,"6813 Fayetteville Road
+Durham, NC 27713-8721
+(35.904636, -78.937232)",6813 Fayetteville Road,6813 Fayetteville Road,,Durham,NC,27713-8721,US,"(35.904636, -78.937232)",35.904636,-78.937232,06/22/2012 06:31:49 PM
+Starbucks,8715,Eastgate - Chapel Hill,Company Owned,17006,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,919-929-2613,"1800 E Franklin Street, Suite B
+Chapel Hill, NC 27514-5816
+(35.936579, -79.025396)","1800 E Franklin Street, Suite B",1800 E Franklin Street,Suite B,Chapel Hill,NC,27514-5816,US,"(35.936579, -79.025396)",35.936579,-79.025396,06/22/2012 06:31:49 PM
+Starbucks,76480,Super Target Durham SE ST-2069,Licensed,8488,,Starbucks Card Mobile,,9999,Unknown,919-425-0001,"8210 Renaissance Pkwy
+Durham, NC 27713-6688
+(35.904151, -78.953058)",8210 Renaissance Pkwy,8210 Renaissance Pkwy,,Durham,NC,27713-6688,US,"(35.904151, -78.953058)",35.904151,-78.953058,06/22/2012 06:31:49 PM
+Starbucks,8245,Franklin Street,Company Owned,15341,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,919-932-3824,"103 East Franklin Street
+Chapel Hill, NC 27514-3620
+(35.913425, -79.055433)",103 East Franklin Street,103 East Franklin Street,,Chapel Hill,NC,27514-3620,US,"(35.913425, -79.055433)",35.913425,-79.055433,06/22/2012 06:31:49 PM
+Starbucks,10605,Jefferson Village,Company Owned,16979,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,336-834-4620,"1562 Highwoods Blvd, Suite C
+Greensboro, NC 27410-2056
+(36.111169, -79.880369)","1562 Highwoods Blvd, Suite C",1562 Highwoods Blvd,Suite C,Greensboro,NC,27410-2056,US,"(36.111169, -79.880369)",36.111169,-79.880369,06/22/2012 06:31:50 PM
+Starbucks,11640,University Parkway,Company Owned,17193,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,336-377-2046,"5980 University Parkway
+Winston-Salem, NC 27105-1342
+(36.187928, -80.27681)",5980 University Parkway,5980 University Parkway,,Winston-Salem,NC,27105-1342,US,"(36.187928, -80.27681)",36.187928,-80.27681,06/22/2012 06:31:50 PM
+Starbucks,16923,Target Winston-Salem North T-1077,Licensed,87155,,,,0,Unknown,336-992-1680,"5420 University Pkwy
+Winston-Salem, NC 27105-1366
+(36.168168, -80.276999)",5420 University Pkwy,5420 University Pkwy,,Winston-Salem,NC,27105-1366,US,"(36.168168, -80.276999)",36.168168,-80.276999,06/22/2012 06:31:50 PM
+Starbucks,11926,Reynolda Road,Company Owned,16943,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,336-761-3783,"2898 Reynolda Road
+Winston-Salem, NC 27106-3168
+(36.144274, -80.300479)",2898 Reynolda Road,2898 Reynolda Road,,Winston-Salem,NC,27106-3168,US,"(36.144274, -80.300479)",36.144274,-80.300479,06/22/2012 06:31:50 PM
+Starbucks,8448,Mt. Tabor Place,Company Owned,16507,,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,336-768-1221,"3327 Robinhood Road
+Winston-Salem, NC 27106-5403
+(36.116346, -80.312628)",3327 Robinhood Road,3327 Robinhood Road,,Winston-Salem,NC,27106-5403,US,"(36.116346, -80.312628)",36.116346,-80.312628,06/22/2012 06:31:50 PM
+Starbucks,70058,Wake Forest University Z. Smith Rey,Licensed,10657,,Wireless Hotspot,,9999,Unknown,336-758-3542,"1834 Wake Forest Rd
+Winston-Salem, NC 27109-6000
+(36.1135, -80.2422)",1834 Wake Forest Rd,1834 Wake Forest Rd,,Winston-Salem,NC,27109-6000,US,"(36.1135, -80.2422)",36.1135,-80.2422,06/22/2012 06:31:50 PM
+Starbucks,8517,Stratford Road,Company Owned,17621,"Oven-warmed Food, Sirena Espresso Machine","Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,336-721-0021,"110 Oakwood Drive, Space U122
+Winston-Salem, NC 27103-1957
+(36.090028, -80.282711)","110 Oakwood Drive, Space U122",110 Oakwood Drive,Space U122,Winston-Salem,NC,27103-1957,US,"(36.090028, -80.282711)",36.090028,-80.282711,06/22/2012 06:31:50 PM
+Starbucks,75827,Embassy Suites Winston-Salem,Licensed,8198,,Wireless Hotspot,,9999,Unknown,336-722-0676,"460 N Cherry St
+Winston-Salem, NC 27101-2898
+(36.099605, -80.247472)",460 N Cherry St,460 N Cherry St,,Winston-Salem,NC,27101-2898,US,"(36.099605, -80.247472)",36.099605,-80.247472,06/22/2012 06:31:50 PM
+Starbucks,11269,Jonestown Rd.,Company Owned,17194,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,336-765-7540,"605 Jonestown Road
+Winston-Salem, NC 27103-1206
+(36.070825, -80.339134)",605 Jonestown Road,605 Jonestown Road,,Winston-Salem,NC,27103-1206,US,"(36.070825, -80.339134)",36.070825,-80.339134,06/22/2012 06:31:50 PM
+Starbucks,11059,Hanes Mall Kiosk,Company Owned,9940,,Starbucks Card Mobile,,9999,Unknown,336-760-0676,"3320 Silas Creek Parkway, PK44
+Winston-Salem, NC 27103-3031
+(36.073309, -80.29815)","3320  Silas Creek Parkway, PK44",3320  Silas Creek Parkway,PK44,Winston-Salem,NC,27103-3031,US,"(36.073309, -80.29815)",36.073309,-80.29815,06/22/2012 06:31:50 PM
+Starbucks,8540,Hanes Mall Blvd.,Company Owned,11503,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,336-765-2716,"2015 Frontis Plaza Boulevard
+Winston Salem, NC 27103
+(36.061965345769, -80.307374)",2015 Frontis Plaza Boulevard,2015 Frontis Plaza Boulevard,,Winston Salem,NC,27103,US,"(36.061965345769, -80.307374)",36.061965345769,-80.307374,06/22/2012 06:31:50 PM
+Starbucks,11922,Clemmons,Company Owned,6768,"Oven-warmed Food, Sirena Espresso Machine","Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,336-766-7866,"2785 Lewisville-Clemmons Rd
+Clemmons, NC 27012-8715
+(36.022618, -80.381471)",2785 Lewisville-Clemmons Rd,2785 Lewisville-Clemmons Rd,,Clemmons,NC,27012-8715,US,"(36.022618, -80.381471)",36.022618,-80.381471,06/22/2012 06:31:50 PM
+Starbucks,76588,Target Kernersville T-2134,Licensed,8391,,Starbucks Card Mobile,,9999,Unknown,336-992-1680,"1024 S Main St
+Kernersville, NC 27284-8178
+(36.1097, -80.099338)",1024 S Main St,1024 S Main St,,Kernersville,NC,27284-8178,US,"(36.1097, -80.099338)",36.1097,-80.099338,06/22/2012 06:31:50 PM
+Starbucks,11058,Kernersville,Company Owned,8575,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,336-996-2819,"1022-M South Main Street
+Kernersville, NC 27284-4603
+(36.108744, -80.0981)",1022-M South Main Street,1022-M South Main Street,,Kernersville,NC,27284-4603,US,"(36.108744, -80.0981)",36.108744,-80.0981,06/22/2012 06:31:50 PM
+Starbucks,70320,Harris Teeter-Kernersville #250,Licensed,18636,,Wireless Hotspot,,9999,Unknown,336-992-9788,"971 S Main St
+Kernersville, NC 27284-7439
+(36.107419, -80.094942)",971 S Main St,971 S Main St,,Kernersville,NC,27284-7439,US,"(36.107419, -80.094942)",36.107419,-80.094942,06/22/2012 06:31:50 PM
+Starbucks,14437,Battleground Ave & Old Battleground,Company Owned,6588,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,336-282-3177,"4016 Battleground Ave
+Greensboro, NC 27410-9799
+(36.148827, -79.869942)",4016 Battleground Ave,4016 Battleground Ave,,Greensboro,NC,27410-9799,US,"(36.148827, -79.869942)",36.148827,-79.869942,06/22/2012 06:31:50 PM
+Starbucks,76689,Target Greensboro West T-2108,Licensed,10146,,Starbucks Card Mobile,,9999,Unknown,336-455-9900,"1628 Highwoods Blvd
+Greensboro, NC 27410-2048
+(36.113057, -79.878673)",1628 Highwoods Blvd,1628 Highwoods Blvd,,Greensboro,NC,27410-2048,US,"(36.113057, -79.878673)",36.113057,-79.878673,06/22/2012 06:31:50 PM
+Starbucks,72867,Harris Teeter Greensboro #33,Licensed,12184,,,,9999,Unknown,336-856-8140,"701 Frances King St
+Greensboro, NC 27410-4105
+(36.088795, -79.890911)",701 Frances King St,701 Frances King St,,Greensboro,NC,27410-4105,US,"(36.088795, -79.890911)",36.088795,-79.890911,06/22/2012 06:31:50 PM
+Starbucks,8486,Shoppes at Deep River,Company Owned,14724,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,336-841-1072,"3875 John Gordon Lane
+High Point, NC 27265-8046
+(36.035749, -79.962595)",3875 John Gordon Lane,3875 John Gordon Lane,,High Point,NC,27265-8046,US,"(36.035749, -79.962595)",36.035749,-79.962595,06/22/2012 06:31:50 PM
+Starbucks,8374,Guilford College,Company Owned,8950,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,336-292-3020,"5607 W Friendly Ave
+Greensboro, NC 27410-4276
+(36.088789, -79.885732)",5607 W Friendly Ave,5607 W Friendly Ave,,Greensboro,NC,27410-4276,US,"(36.088789, -79.885732)",36.088789,-79.885732,06/22/2012 06:31:50 PM
+Starbucks,8222,Battleground Village,Company Owned,12101,"Oven-warmed Food, Sirena Espresso Machine","Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,336-282-0445,"2969 Battleground Avenue
+Greensboro, NC 27408-2705
+(36.114698, -79.835548)",2969 Battleground Avenue,2969 Battleground Avenue,,Greensboro,NC,27408-2705,US,"(36.114698, -79.835548)",36.114698,-79.835548,06/22/2012 06:31:50 PM
+Starbucks,9798,Patriots Place,Company Owned,8152,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,336-545-9454,"505 Pisgah Church Road
+Greensboro, NC 27455-2523
+(36.130846, -79.798979)",505 Pisgah Church Road,505 Pisgah Church Road,,Greensboro,NC,27455-2523,US,"(36.130846, -79.798979)",36.130846,-79.798979,06/22/2012 06:31:50 PM
+Starbucks,8696,Shops on Battleground,Company Owned,14033,"Oven-warmed Food, Sirena Espresso Machine","Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,336-272-7061,"1603 Battleground Avenue
+Greensboro, NC 27408-8049
+(36.08943, -79.81047)",1603 Battleground Avenue,1603 Battleground Avenue,,Greensboro,NC,27408-8049,US,"(36.08943, -79.81047)",36.08943,-79.81047,06/22/2012 06:31:50 PM
+Starbucks,8221,Friendly - HT,Company Owned,17520,,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,336-856-9371,"3330 W. Friendly Ave.
+Greensboro, NC 27410-4806
+(36.085215, -79.837067)",3330 W. Friendly Ave.,3330 W. Friendly Ave.,,Greensboro,NC,27410-4806,US,"(36.085215, -79.837067)",36.085215,-79.837067,06/22/2012 06:31:50 PM
+Starbucks,8148,North Carolina A & T State Univ,Licensed,63123,,Wireless Hotspot,,0,Unknown,336-334-7560,"1601 E Market St
+Greensboro, NC 27411-0002
+(36.073131, -79.776031)",1601 E Market St,1601 E Market St,,Greensboro,NC,27411-0002,US,"(36.073131, -79.776031)",36.073131,-79.776031,06/22/2012 06:31:50 PM
+Starbucks,79343,Harris Teeter-Burlington # 345,Licensed,7811,,,,9999,Unknown,336-585-1444,"2727 Church St.
+Burlington, NC 27215-5103
+(36.079403, -79.490552)",2727 Church St.,2727 Church St.,,Burlington,NC,27215-5103,US,"(36.079403, -79.490552)",36.079403,-79.490552,06/22/2012 06:31:50 PM
+Starbucks,9763,Burlington Mall,Company Owned,8297,"Oven-warmed Food, Sirena Espresso Machine","Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,336-538-6997,"451 Huffman Mill Road
+Burlington, NC 27215-5118
+(36.076192, -79.488787)",451 Huffman Mill Road,451 Huffman Mill Road,,Burlington,NC,27215-5118,US,"(36.076192, -79.488787)",36.076192,-79.488787,06/22/2012 06:31:50 PM
+Starbucks,9839,University Commons,Company Owned,7435,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,336-584-6795,"1447 &quot;A&quot; University Drive
+Burlington, NC 27215-8790
+(36.068164, -79.52042)","1447 ""A"" University Drive","1447 ""A"" University Drive",,Burlington,NC,27215-8790,US,"(36.068164, -79.52042)",36.068164,-79.52042,06/22/2012 06:31:50 PM
+Starbucks,76466,Target Burlington T-2037,Licensed,9539,,Starbucks Card Mobile,,9999,Unknown,336-524-9354,"1475 University Dr
+Burlington, NC 27215-8768
+(36.066375, -79.519907)",1475 University Dr,1475 University Dr,,Burlington,NC,27215-8768,US,"(36.066375, -79.519907)",36.066375,-79.519907,06/22/2012 06:31:50 PM
+Starbucks,8325,Four Seasons Towne Centre,Company Owned,15359,,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,336-218-0501,"400 Four Seasons Town Centre, Space #1K5-A
+Greensboro, NC 27407-4743
+(36.039256, -79.837098)","400 Four Seasons Town Centre, Space #1K5-A",400 Four Seasons Town Centre,Space #1K5-A,Greensboro,NC,27407-4743,US,"(36.039256, -79.837098)",36.039256,-79.837098,06/22/2012 06:31:50 PM
+Starbucks,11057,South Elm & I-85,Company Owned,10351,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,336-273-4531,"3711 Elmsley Street, Suite 108
+Greensboro, NC 27406-7039
+(36.003126, -79.793084)","3711 Elmsley Street, Suite 108",3711 Elmsley Street,Suite 108,Greensboro,NC,27406-7039,US,"(36.003126, -79.793084)",36.003126,-79.793084,06/22/2012 06:31:50 PM
+Starbucks,78069,Furnitureland South,Licensed,6667,,Wireless Hotspot,,9999,Unknown,336-822-3702,"5635 Riverdale Dr
+Jamestown, NC 27282-9171
+(35.969505, -79.92739)",5635 Riverdale Dr,5635 Riverdale Dr,,Jamestown,NC,27282-9171,US,"(35.969505, -79.92739)",35.969505,-79.92739,06/22/2012 06:31:50 PM
+Starbucks,79361,Harris Teeter - High Point #341,Licensed,7176,,,,9999,Unknown,336-869-6317,"265 Eastchester Dr
+High Point, NC 27262-7731
+(35.984404, -80.01928)",265 Eastchester Dr,265 Eastchester Dr,,High Point,NC,27262-7731,US,"(35.984404, -80.01928)",35.984404,-80.01928,06/22/2012 06:31:50 PM
+Starbucks,8961,"High Point, NC",Company Owned,12573,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,336-889-8987,"2101 N. Main Street, Suite 103
+High Point, NC 27262-7700
+(35.983203, -80.023799)","2101 N. Main Street, Suite 103",2101 N. Main Street,Suite 103,High Point,NC,27262-7700,US,"(35.983203, -80.023799)",35.983203,-80.023799,06/22/2012 06:31:50 PM
+Starbucks,72920,Harris Teeter-Chapel Hill #117,Licensed,16341,,,,9999,Unknown,919-933-5700,"2110 Estes Dr
+Chapel Hill, NC 27516-9479
+(35.936497, -79.14553)",2110 Estes Dr,2110 Estes Dr,,Chapel Hill,NC,27516-9479,US,"(35.936497, -79.14553)",35.936497,-79.14553,06/22/2012 06:31:50 PM
+Starbucks,16318,Harris Teeter-Boone #165,Licensed,88375,,,,0,Unknown,,"240 Shadowline Dr
+Boone, NC 28607-5088
+(36.202817, -81.662142)",240 Shadowline Dr,240 Shadowline Dr,,Boone,NC,28607-5088,US,"(36.202817, -81.662142)",36.202817,-81.662142,06/22/2012 06:31:52 PM
+Starbucks,78077,UNC at Chapel Hill - Rams Head Cent,Licensed,10557,,,,9999,Unknown,919-962-6219,"104 Ridge Rd
+Chapel Hill, NC 27514-4387
+(35.903890222735, -79.04123)",104 Ridge Rd,104 Ridge Rd,,Chapel Hill,NC,27514-4387,US,"(35.903890222735, -79.04123)",35.903890222735,-79.04123,06/22/2012 06:31:53 PM
+Starbucks,3048,UNC Hospital,Licensed,18719,Oven-warmed Food,Wireless Hotspot,,0,Unknown,919-445-5404,"101 Manning Dr
+Chapel Hill, NC 27514-4220
+(35.903457, -79.051587)",101 Manning Dr,101 Manning Dr,,Chapel Hill,NC,27514-4220,US,"(35.903457, -79.051587)",35.903457,-79.051587,06/22/2012 06:31:53 PM
+Starbucks,10564,Imperial Corners,Company Owned,6907,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,919-941-0482,"1119 Slater Rd
+Durham, NC 27703-8474
+(35.879388, -78.847073)",1119 Slater Rd,1119 Slater Rd,,Durham,NC,27703-8474,US,"(35.879388, -78.847073)",35.879388,-78.847073,06/22/2012 06:31:53 PM
+Starbucks,70017,RDU Terminal C Central Atrium,Licensed,10007,Lunch,Wireless Hotspot,,9999,Airport,919-840-0506,"1025 Airside Dr
+Raleigh, NC 27623
+(35.878075, -78.792716)",1025 Airside Dr,1025 Airside Dr,,Raleigh,NC,27623,US,"(35.878075, -78.792716)",35.878075,-78.792716,06/22/2012 06:31:53 PM
+Starbucks,16485,RDU-Terminal 1,Licensed,87150,Lunch,,,0,Unknown,919-645-8984,"2400 W Terminal Blvd
+Morrisville, NC 27560-9217
+(35.86751, -78.804044)",2400 W Terminal Blvd,2400 W Terminal Blvd,,Morrisville,NC,27560-9217,US,"(35.86751, -78.804044)",35.86751,-78.804044,06/22/2012 06:31:53 PM
+Starbucks,79375,Harris Teeter-Chapel Hill #137,Licensed,8574,,,,9999,Unknown,919-960-0275,"88 Chatham Downs
+Chapel Hill, NC 27517-6111
+(35.830889, -79.086669)",88 Chatham Downs,88 Chatham Downs,,Chapel Hill,NC,27517-6111,US,"(35.830889, -79.086669)",35.830889,-79.086669,06/22/2012 06:31:53 PM
+Starbucks,70021,RDU Terminal C Presecurity,Licensed,19444,Lunch,Wireless Hotspot,,0,Unknown,919-840-0506,"1025 Airside Dr
+Raleigh, NC 27623
+(35.8607, -78.7928)",1025 Airside Dr,1025 Airside Dr,,Raleigh,NC,27623,US,"(35.8607, -78.7928)",35.8607,-78.7928,06/22/2012 06:31:53 PM
+Starbucks,79699,Harris Teeter-Cary #298,Licensed,6621,,,,9999,Unknown,919-460-3126,"1150 Green Level to Durham Rd
+Cary, NC 27519-8341
+(35.820702, -78.90107)",1150 Green Level to Durham Rd,1150 Green Level to Durham Rd,,Cary,NC,27519-8341,US,"(35.820702, -78.90107)",35.820702,-78.90107,06/22/2012 06:31:53 PM
+Starbucks,9657,Grace Park,Company Owned,14491,"Oven-warmed Food, Sirena Espresso Machine","Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,919-460-1170,"3608-400 Davis Drive
+Morrisville, NC 27560-8818
+(35.821637, -78.847563)",3608-400 Davis Drive,3608-400 Davis Drive,,Morrisville,NC,27560-8818,US,"(35.821637, -78.847563)",35.821637,-78.847563,06/22/2012 06:31:53 PM
+Starbucks,8545,Weston Parkway,Company Owned,12857,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,919-677-6104,"125 Weston Parkway
+Cary, NC 27513-2424
+(35.827473, -78.770416)",125 Weston Parkway,125 Weston Parkway,,Cary,NC,27513-2424,US,"(35.827473, -78.770416)",35.827473,-78.770416,06/22/2012 06:31:53 PM
+Starbucks,9364,High House Road,Company Owned,10097,"Oven-warmed Food, Sirena Espresso Machine","Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,919-387-3482,"2840 NC Highway 55
+Cary, NC 27519-5685
+(35.789277, -78.870563)",2840 NC Highway 55,2840 NC Highway 55,,Cary,NC,27519-5685,US,"(35.789277, -78.870563)",35.789277,-78.870563,06/22/2012 06:31:53 PM
+Starbucks,79397,Harris Teeter-Cary #138,Licensed,9958,,,,9999,Unknown,919-467-1259,"98 Cornerstone Dr
+Cary, NC 27519-8404
+(35.790275, -78.852011)",98 Cornerstone Dr,98 Cornerstone Dr,,Cary,NC,27519-8404,US,"(35.790275, -78.852011)",35.790275,-78.852011,06/22/2012 06:31:53 PM
+Starbucks,10158,Evans Road,Company Owned,17746,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,919-481-9124,"1904 Northwest Maynard Road
+Cary, NC 27513-4997
+(35.798662, -78.795089)",1904 Northwest Maynard Road,1904 Northwest Maynard Road,,Cary,NC,27513-4997,US,"(35.798662, -78.795089)",35.798662,-78.795089,06/22/2012 06:31:53 PM
+Starbucks,9840,Cary Towne Center,Company Owned,8578,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,919-468-9908,"1107 Walnut Street, Suite 102
+Cary, NC 27511-4734
+(35.771485, -78.762595)","1107 Walnut Street, Suite 102",1107 Walnut Street,Suite 102,Cary,NC,27511-4734,US,"(35.771485, -78.762595)",35.771485,-78.762595,06/22/2012 06:31:53 PM
+Starbucks,8214,Falls of Neuse,Company Owned,16207,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,919-873-9615,"900 Spring Forest Road, Suite 103
+Raleigh, NC 27609-9122
+(35.866987, -78.621966)","900 Spring Forest Road, Suite 103",900 Spring Forest Road,Suite 103,Raleigh,NC,27609-9122,US,"(35.866987, -78.621966)",35.866987,-78.621966,06/22/2012 06:31:54 PM
+Starbucks,8217,Pleasant Valley Promenade,Company Owned,16070,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,919-785-0111,"6282 Glenwood Avenue
+Raleigh, NC 27612-2651
+(35.855155, -78.700929)",6282 Glenwood Avenue,6282 Glenwood Avenue,,Raleigh,NC,27612-2651,US,"(35.855155, -78.700929)",35.855155,-78.700929,06/22/2012 06:31:54 PM
+Starbucks,8589,Crabtree Valley Mall,Company Owned,12856,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,919-788-0656,"4325 Glen Wood Avenue, Space 1121
+Raleigh, NC 27612-4532
+(35.840769, -78.679576)","4325 Glen Wood Avenue, Space 1121",4325 Glen Wood Avenue,Space 1121,Raleigh,NC,27612-4532,US,"(35.840769, -78.679576)",35.840769,-78.679576,06/22/2012 06:31:54 PM
+Starbucks,8459,North Hills Plaza,Company Owned,11200,"Clover Crafted Small Batch Coffee, Oven-warmed Food","Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,919-571-0713,"4421 Six Forks Road, 116
+Raleigh, NC 27609-5761
+(35.839892, -78.643005)","4421 Six Forks Road, 116",4421 Six Forks Road,116,Raleigh,NC,27609-5761,US,"(35.839892, -78.643005)",35.839892,-78.643005,06/22/2012 06:31:54 PM
+Starbucks,76282,Target Raleigh  Central T-1892,Licensed,16247,,Starbucks Card Mobile,,9999,Unknown,919-781-9848,"4191 The Circle at N Hills St.
+Raleigh, NC 27609-5712
+(35.837278, -78.642336)",4191 The Circle at N Hills St.,4191 The Circle at N Hills St.,,Raleigh,NC,27609-5712,US,"(35.837278, -78.642336)",35.837278,-78.642336,06/22/2012 06:31:54 PM
+Starbucks,9789,North Hills Center,Company Owned,15656,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,919-420-0514,"4160 Main Street, Suite 105
+Raleigh, NC 27609-5754
+(35.836979, -78.642734)","4160 Main Street, Suite 105",4160 Main Street,Suite 105,Raleigh,NC,27609-5754,US,"(35.836979, -78.642734)",35.836979,-78.642734,06/22/2012 06:31:54 PM
+Starbucks,8272,Old Raleigh Village,Company Owned,16350,,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,919-789-4422,"3101-105 Edwards Mill Road
+Raleigh, NC 27612-5303
+(35.825389, -78.707322)",3101-105 Edwards Mill Road,3101-105 Edwards Mill Road,,Raleigh,NC,27612-5303,US,"(35.825389, -78.707322)",35.825389,-78.707322,06/22/2012 06:31:54 PM
+Starbucks,8462,Capital Blvd.,Company Owned,8911,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,919-875-8760,"3023 Capital Blvd.
+Raleigh, NC 27604-3382
+(35.821364, -78.591832)",3023 Capital Blvd.,3023 Capital Blvd.,,Raleigh,NC,27604-3382,US,"(35.821364, -78.591832)",35.821364,-78.591832,06/22/2012 06:31:54 PM
+Starbucks,11189,Lake Boone Trail,Company Owned,10051,"Oven-warmed Food, Sirena Espresso Machine","Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,919-781-6211,"3800 Lake Boone Trail
+Raleigh, NC 27607-2927
+(35.81609, -78.693753)",3800 Lake Boone Trail,3800 Lake Boone Trail,,Raleigh,NC,27607-2927,US,"(35.81609, -78.693753)",35.81609,-78.693753,06/22/2012 06:31:54 PM
+Starbucks,8218,Cameron Village - HT,Company Owned,16717,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,919-856-9444,"500 Oberlin Road
+Raleigh, NC 27605-1318
+(35.791568, -78.662107)",500 Oberlin Road,500 Oberlin Road,,Raleigh,NC,27605-1318,US,"(35.791568, -78.662107)",35.791568,-78.662107,06/22/2012 06:31:54 PM
+Starbucks,8373,Glenwood & Peace,Company Owned,11183,"Clover Crafted Small Batch Coffee, Oven-warmed Food, Sirena Espresso Machine","Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,919-754-9007,"609 W Peace St
+Raleigh, NC 27605-1519
+(35.788439, -78.647872)",609 W Peace St,609 W Peace St,,Raleigh,NC,27605-1519,US,"(35.788439, -78.647872)",35.788439,-78.647872,06/22/2012 06:31:54 PM
+Starbucks,75937,Marriott Downtown Raleigh,Licensed,7706,,Wireless Hotspot,,9999,Unknown,919-334-9894,"500 Fayetteville St. Mall
+Raleigh, NC 27601-2118
+(35.774788, -78.63939)",500 Fayetteville St. Mall,500 Fayetteville St. Mall,,Raleigh,NC,27601-2118,US,"(35.774788, -78.63939)",35.774788,-78.63939,06/22/2012 06:31:54 PM
+Starbucks,9464,Towne Creek Commons,Company Owned,8296,"Oven-warmed Food, Sirena Espresso Machine","Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,704-636-1402,"916 East Innes Street
+Salisbury, NC 28144-4638
+(35.659434, -80.460856)",916 East Innes Street,916 East Innes Street,,Salisbury,NC,28144-4638,US,"(35.659434, -80.460856)",35.659434,-80.460856,06/22/2012 06:32:05 PM
+Starbucks,9363,Statesville,Company Owned,9695,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,704-872-2066,"1501 East Broad Street
+Statesville, NC 28625-4481
+(35.791573, -80.861833)",1501 East Broad Street,1501 East Broad Street,,Statesville,NC,28625-4481,US,"(35.791573, -80.861833)",35.791573,-80.861833,06/22/2012 06:32:05 PM
+Starbucks,76101,Super Target Mooresville ST-1505,Licensed,11238,,Starbucks Card Mobile,,9999,Unknown,704-799-1233,"594 River Hwy
+Mooresville, NC 28117-6829
+(35.597898, -80.871582)",594 River Hwy,594 River Hwy,,Mooresville,NC,28117-6829,US,"(35.597898, -80.871582)",35.597898,-80.871582,06/22/2012 06:32:05 PM
+Starbucks,8765,Mooresville,Company Owned,13825,"Oven-warmed Food, Sirena Espresso Machine","Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,704-799-0609,"109 Williamson Road
+Mooresville, NC 28117-6922
+(35.594695, -80.868041)",109 Williamson Road,109 Williamson Road,,Mooresville,NC,28117-6922,US,"(35.594695, -80.868041)",35.594695,-80.868041,06/22/2012 06:32:05 PM
+Starbucks,73916,Harris Teeter-Mooresville #99,Licensed,10781,,,,9999,Unknown,704-799-1066,"134 Town Center Drive
+Mooresville, NC 28117-9158
+(35.586007, -80.875827)",134 Town Center Drive,134 Town Center Drive,,Mooresville,NC,28117-9158,US,"(35.586007, -80.875827)",35.586007,-80.875827,06/22/2012 06:32:05 PM
+Starbucks,73818,Harris Teeter - Mooresville #274,Licensed,6980,,,,9999,Unknown,704-799-2004,"118 Argus Lane
+Mooresville, NC 28117-6977
+(35.602279, -80.896216)",118 Argus Lane,118 Argus Lane,,Mooresville,NC,28117-6977,US,"(35.602279, -80.896216)",35.602279,-80.896216,06/22/2012 06:32:05 PM
+Starbucks,16134,Target Morrisville T-2721,Licensed,68319,,,,0,Unknown,919-379-2180,"3001 MARKET CENTER DRIVE
+MORRISVILLE, NC 27560
+(35.553712, -80.8376)",3001 MARKET CENTER DRIVE,3001 MARKET CENTER DRIVE,,MORRISVILLE,NC,27560,US,"(35.553712, -80.8376)",35.553712,-80.8376,06/22/2012 06:32:05 PM
+Starbucks,13421,Mount Mourne,Company Owned,17219,"Oven-warmed Food, Sirena Espresso Machine","Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,704-662-8425,"235 Medical Park Road
+Mooresville, NC 28117-8545
+(35.554, -80.854221)",235 Medical Park Road,235 Medical Park Road,,Mooresville,NC,28117-8545,US,"(35.554, -80.854221)",35.554,-80.854221,06/22/2012 06:32:05 PM
+Starbucks,9570,"Concord, Hwy 29",Company Owned,9466,"Oven-warmed Food, Sirena Espresso Machine","Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,704-786-8151,"1490 US Highway 29
+Concord, NC 28027
+(35.43958, -80.605924)",1490 US Highway 29,1490 US Highway 29,,Concord,NC,28027,US,"(35.43958, -80.605924)",35.43958,-80.605924,06/22/2012 06:32:05 PM
+Starbucks,76716,SuperTarget Kannapolis ST-2169,Licensed,10148,,Starbucks Card Mobile,,9999,Unknown,704-262-6080,"6150 Bayfield Pkwy
+Concord, NC 28027-7486
+(35.4303, -80.6981)",6150 Bayfield Pkwy,6150 Bayfield Pkwy,,Concord,NC,28027-7486,US,"(35.4303, -80.6981)",35.4303,-80.6981,06/22/2012 06:32:05 PM
+Starbucks,73878,Harris Teeter-Davidson # 268,Licensed,6668,,,,9999,Unknown,704-892-0597,"431 Peninsula Drive
+Davidson, NC 28036-7060
+(35.499757, -80.86515)",431 Peninsula Drive,431 Peninsula Drive,,Davidson,NC,28036-7060,US,"(35.499757, -80.86515)",35.499757,-80.86515,06/22/2012 06:32:05 PM
+Starbucks,11969,Kannapolis Parkway,Company Owned,6653,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,704-795-1116,"6065 Bayfield Pkwy
+Concord, NC 28027-7597
+(35.4074, -80.7135)",6065 Bayfield Pkwy,6065 Bayfield Pkwy,,Concord,NC,28027-7597,US,"(35.4074, -80.7135)",35.4074,-80.7135,06/22/2012 06:32:05 PM
+Starbucks,73802,Harris Teeter-Concord #190,Licensed,6738,,,,9999,Unknown,704-721-0735,"9900-Suite 124 Poplar Tent Rd
+Concord, NC 28027-9304
+(35.417343, -80.744026)",9900-Suite 124 Poplar Tent Rd,9900-Suite 124 Poplar Tent Rd,,Concord,NC,28027-9304,US,"(35.417343, -80.744026)",35.417343,-80.744026,06/22/2012 06:32:05 PM
+Starbucks,8285,Lake Norman Blvd.,Company Owned,15349,"Oven-warmed Food, Sirena Espresso Machine","Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,704-895-6066,"19722 One Lake Norman Blvd, Suite 200
+Cornelius, NC 28031-5911
+(35.480825, -80.883066)","19722 One Lake Norman Blvd, Suite 200",19722 One Lake Norman Blvd,Suite 200,Cornelius,NC,28031-5911,US,"(35.480825, -80.883066)",35.480825,-80.883066,06/22/2012 06:32:05 PM
+Starbucks,72924,Harris Teeter-Cornelius #179,Licensed,14440,,,,9999,Unknown,704-895-5020,"19815 N Cove Rd
+Cornelius, NC 28031-8816
+(35.47901, -80.894325)",19815 N Cove Rd,19815 N Cove Rd,,Cornelius,NC,28031-8816,US,"(35.47901, -80.894325)",35.47901,-80.894325,06/22/2012 06:32:05 PM
+Starbucks,14112,Sam Furr Rd & Hwy 115,Company Owned,6589,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,704-892-1063,"9932 Knockando Lane
+Huntersville, NC 28078-5054
+(35.441991, -80.856969)",9932 Knockando Lane,9932 Knockando Lane,,Huntersville,NC,28078-5054,US,"(35.441991, -80.856969)",35.441991,-80.856969,06/22/2012 06:32:05 PM
+Starbucks,76149,Target Huntersville T-966,Licensed,10006,,Starbucks Card Mobile,,9999,Unknown,704-896-1813,"9801 Sam Furr Rd
+Huntersville, NC 28078-8219
+(35.443201, -80.861728)",9801 Sam Furr Rd,9801 Sam Furr Rd,,Huntersville,NC,28078-8219,US,"(35.443201, -80.861728)",35.443201,-80.861728,06/22/2012 06:32:05 PM
+Starbucks,8453,Birkdale,Company Owned,11376,"Oven-warmed Food, Sirena Espresso Machine","Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,704-892-2557,"16846B Birkdale Commons Pkwy
+Huntersville, NC 28078-1814
+(35.445244, -80.880399)",16846B Birkdale Commons Pkwy,16846B Birkdale Commons Pkwy,,Huntersville,NC,28078-1814,US,"(35.445244, -80.880399)",35.445244,-80.880399,06/22/2012 06:32:05 PM
+Starbucks,10391,Speedway Blvd.,Company Owned,8577,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,704-979-1982,"7741 Gateway Lane NW, Suite 130
+Concord, NC 28027-5412
+(35.366514, -80.709736)","7741 Gateway Lane NW, Suite 130",7741 Gateway Lane NW,Suite 130,Concord,NC,28027-5412,US,"(35.366514, -80.709736)",35.366514,-80.709736,06/22/2012 06:32:05 PM
+Starbucks,10968,Concord Mills II,Company Owned,8576,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,704-979-1205,"8111 Concord Mills Blvd, 342
+Concord, NC 28027-6462
+(35.368564, -80.719334)","8111 Concord Mills Blvd, 342",8111 Concord Mills Blvd,342,Concord,NC,28027-6462,US,"(35.368564, -80.719334)",35.368564,-80.719334,06/22/2012 06:32:05 PM
+Starbucks,79330,Teeter-Huntersville #272,Licensed,7023,,,,9999,Unknown,704-892-1197,"7715 Regency Lake Dr
+Huntersville, NC 28078-8938
+(35.443626, -80.895806)",7715 Regency Lake Dr,7715 Regency Lake Dr,,Huntersville,NC,28078-8938,US,"(35.443626, -80.895806)",35.443626,-80.895806,06/22/2012 06:32:05 PM
+Starbucks,10691,Rosedale,Company Owned,6991,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,704-948-4278,"9832 Gilead Road, Space D101
+Huntersville, NC 28078-7512
+(35.406499, -80.863818)","9832 Gilead Road, Space D101",9832 Gilead Road,Space D101,Huntersville,NC,28078-7512,US,"(35.406499, -80.863818)",35.406499,-80.863818,06/22/2012 06:32:05 PM
+Starbucks,9437,The Arbors,Company Owned,9702,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,704-688-0107,"2121 East Arbors Drive, Suite 110
+Charlotte, NC 28262-2571
+(35.3376, -80.757498)","2121 East Arbors Drive, Suite 110",2121 East Arbors Drive,Suite 110,Charlotte,NC,28262-2571,US,"(35.3376, -80.757498)",35.3376,-80.757498,06/22/2012 06:32:05 PM
+Starbucks,10388,Davis Lake Commons,Company Owned,8015,"Oven-warmed Food, Sirena Espresso Machine","Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,704-921-4515,"8439 Davis Lake Parkway
+Charlotte, NC 28269-0539
+(35.335231353853, -80.810719091691)",8439 Davis Lake Parkway,8439 Davis Lake Parkway,,Charlotte,NC,28269-0539,US,"(35.335231353853, -80.810719091691)",35.335231353853,-80.810719091691,06/22/2012 06:32:05 PM
+Starbucks,8234,Mallard Pointe,Company Owned,17568,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,704-547-1787,"9211 North Tryon Street
+Charlotte, NC 28262-8423
+(35.310509424668, -80.745600132383)",9211 North Tryon Street,9211 North Tryon Street,,Charlotte,NC,28262-8423,US,"(35.310509424668, -80.745600132383)",35.310509424668,-80.745600132383,06/22/2012 06:32:05 PM
+Starbucks,9658,Northlake Mall,Company Owned,9595,,Starbucks Card Mobile,,9999,Unknown,704-597-5883,"6801 Northlake Mall Drive, Space K101
+North Charlotte, NC 28216-3328
+(35.350023, -80.852318)","6801 Northlake Mall Drive, Space K101",6801 Northlake Mall Drive,Space K101,North Charlotte,NC,28216-3328,US,"(35.350023, -80.852318)",35.350023,-80.852318,06/22/2012 06:32:05 PM
+Starbucks,78090,University of North Carolina Charlo,Licensed,10922,,,,9999,Unknown,,"9201 University City Blvd
+Charlotte, NC 28223-0001
+(35.304368004861, -80.732194020946)",9201 University City Blvd,9201 University City Blvd,,Charlotte,NC,28223-0001,US,"(35.304368004861, -80.732194020946)",35.304368004861,-80.732194020946,06/22/2012 06:32:05 PM
+Starbucks,76903,SuperTarget Charlotte North ST-2080,Licensed,7738,,Starbucks Card Mobile,,9999,Unknown,704-516-3648,"9841 Northlake Ctr Pkwy
+Charlotte, NC 28216-8930
+(35.349971, -80.859331)",9841 Northlake Ctr Pkwy,9841 Northlake Ctr Pkwy,,Charlotte,NC,28216-8930,US,"(35.349971, -80.859331)",35.349971,-80.859331,06/22/2012 06:32:05 PM
+Starbucks,75190,Wachovia Bank,Licensed,12702,,,,9999,Unknown,704-717-0807,"1525 W WT Harris Blvd
+Charlotte, NC 28262-8522
+(35.312736963213, -80.771127163784)",1525 W WT Harris Blvd,1525 W WT Harris Blvd,,Charlotte,NC,28262-8522,US,"(35.312736963213, -80.771127163784)",35.312736963213,-80.771127163784,06/22/2012 06:32:05 PM
+Starbucks,79419,Harris-Teeter-Charlotte #258,Licensed,10358,,,,9999,Unknown,704-593-1395,"8514 University Center Blvd
+Charlotte, NC 28262
+(35.296011, -80.739109)",8514 University Center Blvd,8514 University Center Blvd,,Charlotte,NC,28262,US,"(35.296011, -80.739109)",35.296011,-80.739109,06/22/2012 06:32:05 PM
+Starbucks,11214,Hickory North,Company Owned,7246,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,828-322-3451,"1342 2nd St., NE
+Hickory, NC 28601-2555
+(35.751159, -81.335837)","1342 2nd St., NE","1342 2nd St., NE",,Hickory,NC,28601-2555,US,"(35.751159, -81.335837)",35.751159,-81.335837,06/22/2012 06:32:05 PM
+Starbucks,14515,Lenoir Rhyne Blvd & I-40,Company Owned,10618,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,828-322-8019,"1186 Lenoir Rhyne Blvd
+Hickory, NC 28602-5169
+(35.716251, -81.313706)",1186 Lenoir Rhyne Blvd,1186 Lenoir Rhyne Blvd,,Hickory,NC,28602-5169,US,"(35.716251, -81.313706)",35.716251,-81.313706,06/22/2012 06:32:05 PM
+Starbucks,8460,Gateway Village,Company Owned,15608,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,704-333-4077,"800 W Trade St, Ste 140
+Charlotte, NC 28202-1198
+(35.233675, -80.850512)","800 W Trade St, Ste 140",800 W Trade St,Ste 140,Charlotte,NC,28202-1198,US,"(35.233675, -80.850512)",35.233675,-80.850512,06/22/2012 06:32:05 PM
+Starbucks,8393,Bank of America Plaza,Company Owned,14918,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,704-374-9519,"101 S. Tryon Street
+Charlotte, NC 28280-0002
+(35.227881, -80.84284)",101 S. Tryon Street,101 S. Tryon Street,,Charlotte,NC,28280-0002,US,"(35.227881, -80.84284)",35.227881,-80.84284,06/22/2012 06:32:05 PM
+Starbucks,8390,Independence,Company Owned,15377,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,704-377-2790,"101 N Tryon St
+Charlotte, NC 28246-0100
+(35.227223, -80.843007)",101 N Tryon St,101 N Tryon St,,Charlotte,NC,28246-0100,US,"(35.227223, -80.843007)",35.227223,-80.843007,06/22/2012 06:32:05 PM
+Starbucks,8208,Charlotte Plaza,Company Owned,15958,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,704-335-8242,"201 South College Street
+Charlotte, NC 28244-0002
+(35.22509, -80.843285)",201 South College Street,201 South College Street,,Charlotte,NC,28244-0002,US,"(35.22509, -80.843285)",35.22509,-80.843285,06/22/2012 06:32:05 PM
+Starbucks,75310,Charlotte Convention Center,Licensed,8017,,,,9999,Unknown,704-339-6041,"501 S College St
+Charlotte, NC 28202-1827
+(35.222108, -80.845329)",501 S College St,501 S College St,,Charlotte,NC,28202-1827,US,"(35.222108, -80.845329)",35.222108,-80.845329,06/22/2012 06:32:05 PM
+Starbucks,76840,Target Charlotte Midtown T-2244,Licensed,6532,,Starbucks Card Mobile,,9999,Unknown,704-494-3041,"900 Metropolitan Ave
+Charlotte, NC 28204-3177
+(35.215054, -80.833313)",900 Metropolitan Ave,900 Metropolitan Ave,,Charlotte,NC,28204-3177,US,"(35.215054, -80.833313)",35.215054,-80.833313,06/22/2012 06:32:05 PM
+Starbucks,8211,7th Street,Company Owned,16069,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,704-333-5880,"1961 East 7th Street
+Charlotte, NC 28204-2417
+(35.212474, -80.817908)",1961 East 7th Street,1961 East 7th Street,,Charlotte,NC,28204-2417,US,"(35.212474, -80.817908)",35.212474,-80.817908,06/22/2012 06:32:05 PM
+Starbucks,11638,Carolina Medical (Kiosk),Company Owned,17005,,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,704-375-2406,"1025 Morehead Medical Drive
+Charlotte, NC 28204-2963
+(35.205783, -80.838679)",1025 Morehead Medical Drive,1025 Morehead Medical Drive,,Charlotte,NC,28204-2963,US,"(35.205783, -80.838679)",35.205783,-80.838679,06/22/2012 06:32:05 PM
+Starbucks,8210,Providence Road,Company Owned,17567,"Clover Crafted Small Batch Coffee, Oven-warmed Food, Sirena Espresso Machine","Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,704-372-1591,"545 Providence Rd.
+Charlotte, NC 28207-1653
+(35.202104, -80.82453)",545 Providence Rd.,545 Providence Rd.,,Charlotte,NC,28207-1653,US,"(35.202104, -80.82453)",35.202104,-80.82453,06/22/2012 06:32:05 PM
+Starbucks,72361,CLT - Main C/D Side Bookstore,Licensed,13152,,Wireless Hotspot,,9999,Airport,704-359-4453,"5501 Josh Birmingham Parkway
+Charlotte, NC 28208-5750
+(35.225266, -80.92908)",5501 Josh Birmingham Parkway,5501 Josh Birmingham Parkway,,Charlotte,NC,28208-5750,US,"(35.225266, -80.92908)",35.225266,-80.92908,06/22/2012 06:32:05 PM
+Starbucks,75659,CLT - Concourse D/E Connector,Licensed,14268,,Wireless Hotspot,,9999,Airport,704-359-4673,"5501 Josh Birmingham Parkway
+Charlotte, NC 28208-5750
+(35.225266, -80.92908)",5501 Josh Birmingham Parkway,5501 Josh Birmingham Parkway,,Charlotte,NC,28208-5750,US,"(35.225266, -80.92908)",35.225266,-80.92908,06/22/2012 06:32:05 PM
+Starbucks,3488,CLT Terminal E,Licensed,18814,,Wireless Hotspot,,0,Unknown,704-359-4512,"5501 Josh Birmingham Pkwy
+Charlotte, NC 28208-5750
+(35.223362, -80.927864)",5501 Josh Birmingham Pkwy,5501 Josh Birmingham Pkwy,,Charlotte,NC,28208-5750,US,"(35.223362, -80.927864)",35.223362,-80.927864,06/22/2012 06:32:05 PM
+Starbucks,72362,CLT - Charlotte C-13-,Licensed,13153,,Wireless Hotspot,,9999,Airport,704-359-4546,"5502 Josh Birmingham Parkway
+Charlotte, NC 28208-5746
+(35.22234, -80.924987)",5502 Josh Birmingham Parkway,5502 Josh Birmingham Parkway,,Charlotte,NC,28208-5746,US,"(35.22234, -80.924987)",35.22234,-80.924987,06/22/2012 06:32:05 PM
+Starbucks,72402,"CLT - Term B-Gate 12, Gift/News",Licensed,13165,,Wireless Hotspot,,9999,Airport,704-359-4455,"5501 Josh Birmingham Parkway
+Charlotte, NC 28208-5750
+(35.222019, -80.924792)",5501 Josh Birmingham Parkway,5501 Josh Birmingham Parkway,,Charlotte,NC,28208-5750,US,"(35.222019, -80.924792)",35.222019,-80.924792,06/22/2012 06:32:05 PM
+Starbucks,72400,CLT - Charlotte Main Term Bookstore,Licensed,13164,,Wireless Hotspot,,9999,Airport,704-359-4981,"5501 Josh Birmingham Parkway
+Charlotte, NC 28208-5750
+(35.222019, -80.924792)",5501 Josh Birmingham Parkway,5501 Josh Birmingham Parkway,,Charlotte,NC,28208-5750,US,"(35.222019, -80.924792)",35.222019,-80.924792,06/22/2012 06:32:05 PM
+Starbucks,8288,East Blvd,Company Owned,17711,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,704-338-9911,"1401 East Boulevard
+Charlotte, NC 28203-5817
+(35.20134, -80.843366)",1401 East Boulevard,1401 East Boulevard,,Charlotte,NC,28203-5817,US,"(35.20134, -80.843366)",35.20134,-80.843366,06/22/2012 06:32:05 PM
+Starbucks,75852,CLT- Main Terminal Pre Security,Licensed,8067,,Wireless Hotspot,,9999,Airport,,"5501 Josh Birmingham Pkwy
+Charlotte, NC 28208-5750
+(35.220864, -80.944687)",5501 Josh Birmingham Pkwy,5501 Josh Birmingham Pkwy,,Charlotte,NC,28208-5750,US,"(35.220864, -80.944687)",35.220864,-80.944687,06/22/2012 06:32:05 PM
+Starbucks,8240,Cotswold Village Shops,Company Owned,18198,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,704-442-0333,"4450 Randolph Rd. Ste 100
+Charlotte, NC 28211-2388
+(35.177035, -80.799365)",4450 Randolph Rd. Ste 100,4450 Randolph Rd. Ste 100,,Charlotte,NC,28211-2388,US,"(35.177035, -80.799365)",35.177035,-80.799365,06/22/2012 06:32:05 PM
+Starbucks,2971,Park Towne Village,Company Owned,14412,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,704-527-2463,"1630 Woodlawn Avenue
+Charlotte, NC 28209-2269
+(35.171695, -80.847605)",1630 Woodlawn Avenue,1630 Woodlawn Avenue,,Charlotte,NC,28209-2269,US,"(35.171695, -80.847605)",35.171695,-80.847605,06/22/2012 06:32:05 PM
+Starbucks,8216,Morrocroft Village - HT,Company Owned,9214,"Clover Crafted Small Batch Coffee, Oven-warmed Food, Sirena Espresso Machine","Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,704-365-5194,"6701 Morrison Blvd.
+Charlotte, NC 28211-5000
+(35.153411, -80.825224)",6701 Morrison Blvd.,6701 Morrison Blvd.,,Charlotte,NC,28211-5000,US,"(35.153411, -80.825224)",35.153411,-80.825224,06/22/2012 06:32:05 PM
+Starbucks,16138,Target Gastonia T-2565,Licensed,68201,,,,0,Unknown,704-691-6001,"425 Cox Rd
+Gastonia, NC 28054
+(35.262558, -81.133543)",425 Cox Rd,425 Cox Rd,,Gastonia,NC,28054,US,"(35.262558, -81.133543)",35.262558,-81.133543,06/22/2012 06:32:05 PM
+Starbucks,8563,South Park Mall,Company Owned,15419,,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,704-364-7523,"4400 Sharron Road, C7B
+Charlotte, NC 28211-3531
+(35.151763, -80.830711)","4400 Sharron Road, C7B",4400 Sharron Road,C7B,Charlotte,NC,28211-3531,US,"(35.151763, -80.830711)",35.151763,-80.830711,06/22/2012 06:32:05 PM
+Starbucks,8697,Sycamore Commons,Company Owned,12589,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,704-841-1398,"2233 Matthews Township Parkway, Suite A
+Matthews, NC 28105-4823
+(35.128033, -80.70285)","2233 Matthews Township Parkway, Suite A",2233 Matthews Township Parkway,Suite A,Matthews,NC,28105-4823,US,"(35.128033, -80.70285)",35.128033,-80.70285,06/22/2012 06:32:05 PM
+Starbucks,76150,Target Charlotte SE T-918,Licensed,18404,,Starbucks Card Mobile,,9999,Unknown,704-845-0948,"1900 Matthews Township Pkwy
+Matthews, NC 28105-4660
+(35.124233, -80.70762)",1900 Matthews Township Pkwy,1900 Matthews Township Pkwy,,Matthews,NC,28105-4660,US,"(35.124233, -80.70762)",35.124233,-80.70762,06/22/2012 06:32:05 PM
+Starbucks,14981,Harris Teeter-Matthews #157,Licensed,19255,,,,0,Unknown,704-846-7117,"1811 Matthews Township Pkwy
+Matthews, NC 28105-4659
+(35.123244, -80.709135)",1811 Matthews Township Pkwy,1811 Matthews Township Pkwy,,Matthews,NC,28105-4659,US,"(35.123244, -80.709135)",35.123244,-80.709135,06/22/2012 06:32:05 PM
+Starbucks,10324,Arrowood Road,Company Owned,10266,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,704-523-2699,"7819 Forest Pine Drive
+Charlotte, NC 28273
+(35.136851, -80.904203)",7819 Forest Pine Drive,7819 Forest Pine Drive,,Charlotte,NC,28273,US,"(35.136851, -80.904203)",35.136851,-80.904203,06/22/2012 06:32:05 PM
+Starbucks,76601,Super Target Charlotte ST-2132,Licensed,8393,,Starbucks Card Mobile,,9999,Unknown,704-583-2601,"12830 Walker Branch Dr
+Charlotte, NC 28273-8850
+(35.1466, -80.947296)",12830 Walker Branch Dr,12830 Walker Branch Dr,,Charlotte,NC,28273-8850,US,"(35.1466, -80.947296)",35.1466,-80.947296,06/22/2012 06:32:05 PM
+Starbucks,76552,Target Charlotte Far South T-2090,Licensed,7059,,Starbucks Card Mobile,,9999,Unknown,704-542-1856,"9870 Rea Rd
+Charlotte, NC 28277-6655
+(35.037449, -80.808173)",9870 Rea Rd,9870 Rea Rd,,Charlotte,NC,28277-6655,US,"(35.037449, -80.808173)",35.037449,-80.808173,06/22/2012 06:32:05 PM
+Starbucks,8351,Olde Towne Village,Company Owned,11400,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,704-541-1003,"4100 Carmel Road, Suite L
+Charlotte, NC 28226-6151
+(35.117067, -80.823797)","4100 Carmel Road, Suite L",4100 Carmel Road,Suite L,Charlotte,NC,28226-6151,US,"(35.117067, -80.823797)",35.117067,-80.823797,06/22/2012 06:32:05 PM
+Starbucks,8572,Whitehall,Company Owned,13894,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,704-504-1832,"8951-A SOUTH TRYON STREET
+Charlotte, NC 28273-3309
+(35.136613, -80.937139)",8951-A SOUTH TRYON STREET,8951-A SOUTH TRYON STREET,,Charlotte,NC,28273-3309,US,"(35.136613, -80.937139)",35.136613,-80.937139,06/22/2012 06:32:05 PM
+Starbucks,73786,Harris Teeter Charlotte #30,Licensed,7503,,,,9999,Unknown,704-544-3340,"3333 Pineville Matthews Rd
+Charlotte, NC 28226-9322
+(35.096528, -80.784604)",3333 Pineville Matthews Rd,3333 Pineville Matthews Rd,,Charlotte,NC,28226-9322,US,"(35.096528, -80.784604)",35.096528,-80.784604,06/22/2012 06:32:05 PM
+Starbucks,76129,Target Pineville T-762,Licensed,13707,,Starbucks Card Mobile,,9999,Unknown,704-556-7082,"9531 South Blvd
+Charlotte, NC 28273-6901
+(35.108352, -80.87873)",9531 South Blvd,9531 South Blvd,,Charlotte,NC,28273-6901,US,"(35.108352, -80.87873)",35.108352,-80.87873,06/22/2012 06:32:05 PM
+Starbucks,10035,Carolinas Medical South,Company Owned,7909,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,704-540-8710,"9015 Pineville-Matthews Road
+Charlotte, NC 28134-8800
+(35.088668, -80.871236)",9015 Pineville-Matthews Road,9015 Pineville-Matthews Road,,Charlotte,NC,28134-8800,US,"(35.088668, -80.871236)",35.088668,-80.871236,06/22/2012 06:32:05 PM
+Starbucks,11921,Piper Glen,Company Owned,6799,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,704-542-3721,"6432 Rea Road
+Charlotte, NC 28277-2528
+(35.078109, -80.817006)",6432 Rea Road,6432 Rea Road,,Charlotte,NC,28277-2528,US,"(35.078109, -80.817006)",35.078109,-80.817006,06/22/2012 06:32:05 PM
+Starbucks,16408,Harris Teeter-S Tryon Charlotte #88,Licensed,87557,,,,0,Unknown,,"13000 S Tryon St
+Charlotte, NC 28278-7652
+(35.12141, -81.010805)",13000 S Tryon St,13000 S Tryon St,,Charlotte,NC,28278-7652,US,"(35.12141, -81.010805)",35.12141,-81.010805,06/22/2012 06:32:05 PM
+Starbucks,8500,Carolina Place Mall,Company Owned,16195,,Starbucks Card Mobile,,9999,Unknown,704-540-9451,"11025 Carolina Place Parkway, A-140
+Pineville, NC 28134-8399
+(35.085543486551, -80.880704975751)","11025 Carolina Place Parkway, A-140",11025 Carolina Place Parkway,A-140,Pineville,NC,28134-8399,US,"(35.085543486551, -80.880704975751)",35.085543486551,-80.880704975751,06/22/2012 06:32:05 PM
+Starbucks,79297,Harris Teeter-Charlotte #45,Licensed,14533,,,,9999,Unknown,704-849-2776,"10616 Providence Road
+Charlotte, NC 28277-0233
+(35.066452, -80.771746)",10616 Providence Road,10616 Providence Road,,Charlotte,NC,28277-0233,US,"(35.066452, -80.771746)",35.066452,-80.771746,06/22/2012 06:32:05 PM
+Starbucks,8554,Promenade,Company Owned,9334,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,704-814-7350,"5361 Ballantyne Commons Pkwy, 100
+Charlotte, NC 28277-0525
+(35.064602414154, -80.772236645657)","5361 Ballantyne Commons Pkwy, 100",5361 Ballantyne Commons Pkwy,100,Charlotte,NC,28277-0525,US,"(35.064602414154, -80.772236645657)",35.064602414154,-80.772236645657,06/22/2012 06:32:05 PM
+Starbucks,10389,Rivergate,Company Owned,10345,"Oven-warmed Food, Sirena Espresso Machine","Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,704-588-3062,"12807 South Tyron St, 200
+Charlotte, NC 28273-6949
+(35.103176, -80.986348)","12807 South Tyron St, 200",12807 South Tyron St,200,Charlotte,NC,28273-6949,US,"(35.103176, -80.986348)",35.103176,-80.986348,06/22/2012 06:32:05 PM
+Starbucks,76455,Target Charlotte T-1087,Licensed,9412,,Starbucks Card Mobile,,9999,Unknown,704-542-1856,"7860 Rea Rd
+Charlotte, NC 28277-6502
+(35.060222, -80.813466)",7860 Rea Rd,7860 Rea Rd,,Charlotte,NC,28277-6502,US,"(35.060222, -80.813466)",35.060222,-80.813466,06/22/2012 06:32:05 PM
+Starbucks,11968,Stonecrest,Company Owned,17117,"Oven-warmed Food, Sirena Espresso Machine","Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,704-543-0364,"7922 Rea Road
+Charlotte, NC 28277-6576
+(35.058606, -80.813197)",7922 Rea Road,7922 Rea Road,,Charlotte,NC,28277-6576,US,"(35.058606, -80.813197)",35.058606,-80.813197,06/22/2012 06:32:05 PM
+Starbucks,13475,Sun Valley,Company Owned,7613,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,704-225-8134,"6701 Old Monroe Rd, Suite A
+Indian Trail, NC 28079-6628
+(35.048485, -80.64703)","6701 Old Monroe Rd, Suite A",6701 Old Monroe Rd,Suite A,Indian Trail,NC,28079-6628,US,"(35.048485, -80.64703)",35.048485,-80.64703,06/22/2012 06:32:05 PM
+Starbucks,9362,Ballantyne,Company Owned,8295,"Oven-warmed Food, Sirena Espresso Machine","Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,704-543-1535,"13855 Conlan Circle
+Charlotte, NC 28277-3654
+(35.055269, -80.851382)",13855 Conlan Circle,13855 Conlan Circle,,Charlotte,NC,28277-3654,US,"(35.055269, -80.851382)",35.055269,-80.851382,06/22/2012 06:32:05 PM
+Starbucks,10241,Blakeney,Company Owned,7910,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,704-541-0355,"9820-A Rea Road
+Charlotte, NC 28277-6681
+(35.038753012201, -80.805980058543)",9820-A Rea Road,9820-A Rea Road,,Charlotte,NC,28277-6681,US,"(35.038753012201, -80.805980058543)",35.038753012201,-80.805980058543,06/22/2012 06:32:05 PM
+Starbucks,79359,Harris Teeter - Matthews #343,Licensed,7837,,,,9999,Unknown,704-847-5955,"13639 Providence Rd
+Matthews, NC 28104-9373
+(35.022479, -80.761232)",13639 Providence Rd,13639 Providence Rd,,Matthews,NC,28104-9373,US,"(35.022479, -80.761232)",35.022479,-80.761232,06/22/2012 06:32:05 PM
+Starbucks,15707,Hwy 74 & Windmere - Monroe,Company Owned,69863,"Lunch, Oven-warmed Food",Wireless Hotspot,Drive-Through,0,Unknown,704-225-8006,"2937 Monroe Way
+Monroe, NC 28110
+(35.022333, -80.579055)",2937 Monroe Way,2937 Monroe Way,,Monroe,NC,28110,US,"(35.022333, -80.579055)",35.022333,-80.579055,06/22/2012 06:32:05 PM
+Starbucks,76456,Target Monroe  T-2074,Licensed,8489,,Starbucks Card Mobile,,9999,Unknown,704-225-8378,"2901 W Hwy 74
+Monroe, NC 28110-8435
+(35.020195, -80.581336)",2901 W Hwy 74,2901 W Hwy 74,,Monroe,NC,28110-8435,US,"(35.020195, -80.581336)",35.020195,-80.581336,06/22/2012 06:32:05 PM
+Starbucks,73918,Harris Teeter-Charlotte # 317,Licensed,10780,,,,9999,Unknown,704-714-4795,"16625 Lancaster Hwy
+Charlotte, NC 28277-2038
+(35.02301, -80.848201)",16625 Lancaster Hwy,16625 Lancaster Hwy,,Charlotte,NC,28277-2038,US,"(35.02301, -80.848201)",35.02301,-80.848201,06/22/2012 06:32:05 PM
+Starbucks,76939,Target Wesley Chapel T-2395,Licensed,7739,,Starbucks Card Mobile,,9999,Unknown,704-234-5271,"6350 Weddington Monroe Rd
+Wesley Chapel, NC 28104-7924
+(35.0024, -80.734)",6350 Weddington Monroe Rd,6350 Weddington Monroe Rd,,Wesley Chapel,NC,28104-7924,US,"(35.0024, -80.734)",35.0024,-80.734,06/22/2012 06:32:05 PM
+Starbucks,76255,Super Target Apex ST-1932,Licensed,16248,,Starbucks Card Mobile,,9999,Unknown,919-372-1405,"1201 Beaver Creek Commons Dr
+Apex, NC 27502-3922
+(35.7373, -78.8677)",1201 Beaver Creek Commons Dr,1201 Beaver Creek Commons Dr,,Apex,NC,27502-3922,US,"(35.7373, -78.8677)",35.7373,-78.8677,06/22/2012 06:32:07 PM
+Starbucks,72999,Harris Teeter-Apex #58,Licensed,14467,,,,9999,Unknown,919-362-3782,"750 W Williams St
+Apex, NC 27502-5100
+(35.737651, -78.862797)",750 W Williams St,750 W Williams St,,Apex,NC,27502-5100,US,"(35.737651, -78.862797)",35.737651,-78.862797,06/22/2012 06:32:07 PM
+Starbucks,72522,Kroger-Apex #357,Licensed,10182,,,,9999,Unknown,919-380-1422,"940 US Hwy 64
+Apex, NC 27523-7184
+(35.74425, -78.823135)",940 US Hwy 64,940 US Hwy 64,,Apex,NC,27523-7184,US,"(35.74425, -78.823135)",35.74425,-78.823135,06/22/2012 06:32:07 PM
+Starbucks,10967,Cary Central,Company Owned,17522,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,919-465-1229,"1217 Kildaire Farm Road
+Cary, NC 27511-5523
+(35.762809, -78.782697)",1217 Kildaire Farm Road,1217 Kildaire Farm Road,,Cary,NC,27511-5523,US,"(35.762809, -78.782697)",35.762809,-78.782697,06/22/2012 06:32:07 PM
+Starbucks,13922,Crossroads Blvd & Caitboo Ave,Company Owned,6990,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,919-233-4905,"204 Crossroads Plaza, Suite 200
+Cary, NC 27511-6705
+(35.760541, -78.741012)","204 Crossroads Plaza, Suite 200",204 Crossroads Plaza,Suite 200,Cary,NC,27511-6705,US,"(35.760541, -78.741012)",35.760541,-78.741012,06/22/2012 06:32:07 PM
+Starbucks,79270,Harris Teeter-Holly Springs #118,Licensed,8212,,Wireless Hotspot,,9999,Unknown,919-363-3059,"5277 Sunset Lake Rd
+Holly Springs, NC 27540-3768
+(35.649803, -78.81633)",5277 Sunset Lake Rd,5277 Sunset Lake Rd,,Holly Springs,NC,27540-3768,US,"(35.649803, -78.81633)",35.649803,-78.81633,06/22/2012 06:32:07 PM
+Starbucks,73887,Harris Teeter-Cary # 330,Licensed,10486,,,,9999,Unknown,919-233-3476,"1151 TRYON VILLAGE DRIVE
+Cary, NC 27518-7168
+(35.74668, -78.743422)",1151 TRYON VILLAGE DRIVE,1151 TRYON VILLAGE DRIVE,,Cary,NC,27518-7168,US,"(35.74668, -78.743422)",35.74668,-78.743422,06/22/2012 06:32:07 PM
+Starbucks,11967,Tryon Village,Company Owned,6867,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,919-851-6439,"8204 Tryon Woods Dr, Suite 120
+Cary, NC 27518-7164
+(35.746163, -78.741863)","8204 Tryon Woods Dr, Suite 120",8204 Tryon Woods Dr,Suite 120,Cary,NC,27518-7164,US,"(35.746163, -78.741863)",35.746163,-78.741863,06/22/2012 06:32:07 PM
+Starbucks,14381,Hwy 401 & Purfoy Rd,Company Owned,10951,Oven-warmed Food,Starbucks Card Mobile,Drive-Through,9999,Unknown,919-557-0533,"1380 North Main St
+Fuquay-Varina, NC 27526-2617
+(35.59222, -78.774999)",1380 North Main St,1380 North Main St,,Fuquay-Varina,NC,27526-2617,US,"(35.59222, -78.774999)",35.59222,-78.774999,06/22/2012 06:32:07 PM
+Starbucks,79379,Harris Teeter-Garner #283,Licensed,10332,,Wireless Hotspot,,9999,Unknown,919-772-0241,"Rt. 401 &amp; Ten Ten
+Garner, NC 27529
+(35.663618, -78.6999)",Rt. 401 & Ten Ten,Rt. 401 & Ten Ten,,Garner,NC,27529,US,"(35.663618, -78.6999)",35.663618,-78.6999,06/22/2012 06:32:07 PM
+Starbucks,10387,"Aberdeen, NC",Company Owned,17907,Oven-warmed Food,Starbucks Card Mobile,Drive-Through,9999,Unknown,910-692-2351,"110 Columbus Drive
+Aberdeen, NC 28315-2387
+(35.1571, -79.4133)",110 Columbus Drive,110 Columbus Drive,,Aberdeen,NC,28315-2387,US,"(35.1571, -79.4133)",35.1571,-79.4133,06/22/2012 06:32:07 PM
+Starbucks,70010,Fort Bragg - North Post,Licensed,19256,,Wireless Hotspot,,0,Unknown,910-306-3709,"3571 Butner Road, Bldg 8-5476A
+Fort Bragg, NC 28310
+(35.149009, -79.036164)","3571 Butner Road, Bldg 8-5476A",3571 Butner Road,Bldg 8-5476A,Fort Bragg,NC,28310,US,"(35.149009, -79.036164)",35.149009,-79.036164,06/22/2012 06:32:08 PM
+Starbucks,78064,Fort Bragg - Mini Mall,Licensed,7313,"Lunch, Oven-warmed Food",Wireless Hotspot,,9999,Unknown,910-436-2200,"Building 42171 Reilly Road
+Fort Bragg, NC 28307
+(35.1455, -78.9904)",Building 42171 Reilly Road,Building 42171 Reilly Road,,Fort Bragg,NC,28307,US,"(35.1455, -78.9904)",35.1455,-78.9904,06/22/2012 06:32:08 PM
+Starbucks,9800,Cross Creek,Company Owned,7897,"Oven-warmed Food, Sirena Espresso Machine","Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,910-864-9991,"565 Cross Creek Mall, Suite 100
+Fayetteville, NC 28303-7245
+(35.074773, -78.962521)","565 Cross Creek Mall, Suite 100",565 Cross Creek Mall,Suite 100,Fayetteville,NC,28303-7245,US,"(35.074773, -78.962521)",35.074773,-78.962521,06/22/2012 06:32:08 PM
+Starbucks,76391,Target Fayetteville T-755,Licensed,8279,,Starbucks Card Mobile,,9999,Unknown,910-860-4400,"2056 Skibo Rd
+Fayetteville, NC 28314-2245
+(35.055141, -78.974908)",2056 Skibo Rd,2056 Skibo Rd,,Fayetteville,NC,28314-2245,US,"(35.055141, -78.974908)",35.055141,-78.974908,06/22/2012 06:32:08 PM
+Starbucks,72864,Harris Teeter-Fayetteville #25,Licensed,14032,,,,9999,Unknown,910-484-6000,"2800 Raeford Rd
+Fayetteville, NC 28303-9611
+(35.045708, -78.9243)",2800 Raeford Rd,2800 Raeford Rd,,Fayetteville,NC,28303-9611,US,"(35.045708, -78.9243)",35.045708,-78.9243,06/22/2012 06:32:08 PM
+Starbucks,10159,Walter Reed Road,Company Owned,7433,"Oven-warmed Food, Sirena Espresso Machine","Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,910-485-1084,"1445 Walter Reed Road
+Fayetteville, NC 28304-4401
+(35.039023, -78.935074)",1445 Walter Reed Road,1445 Walter Reed Road,,Fayetteville,NC,28304-4401,US,"(35.039023, -78.935074)",35.039023,-78.935074,06/22/2012 06:32:08 PM
+Starbucks,9465,New Bern Commons,Company Owned,8487,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,919-231-3271,"4421 New Bern Avenue
+Raleigh, NC 27610-1443
+(35.798746, -78.560782)",4421 New Bern Avenue,4421 New Bern Avenue,,Raleigh,NC,27610-1443,US,"(35.798746, -78.560782)",35.798746,-78.560782,06/22/2012 06:32:08 PM
+Starbucks,10390,"Clayton, NC",Company Owned,9868,"Oven-warmed Food, Sirena Espresso Machine","Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,919-359-0690,"13024 US Highway 70W, Suite 103
+Clayton, NC 27520-2282
+(35.666005, -78.497977)","13024 US Highway 70W, Suite 103",13024 US Highway 70W,Suite 103,Clayton,NC,27520-2282,US,"(35.666005, -78.497977)",35.666005,-78.497977,06/22/2012 06:32:08 PM
+Starbucks,76589,Target Knightdale T-2111,Licensed,8392,,Starbucks Card Mobile,,9999,Unknown,919-388-6100,"1000 Shoppes at Midway Dr
+Knightdale, NC 27545-7313
+(35.7905, -78.5024)",1000 Shoppes at Midway Dr,1000 Shoppes at Midway Dr,,Knightdale,NC,27545-7313,US,"(35.7905, -78.5024)",35.7905,-78.5024,06/22/2012 06:32:08 PM
+Starbucks,15952,UNC Pembroke,Licensed,65801,,,,0,Unknown,910-775-4197,"1 University Rd
+Pembroke, NC 28372-8699
+(34.686154, -79.204911)",1 University Rd,1 University Rd,,Pembroke,NC,28372-8699,US,"(34.686154, -79.204911)",34.686154,-79.204911,06/22/2012 06:32:08 PM
+Starbucks,14555,Wayne Memorial Dr & Hwy 70,Company Owned,10619,"Lunch, Oven-warmed Food",Starbucks Card Mobile,Drive-Through,9999,Unknown,919-581-0993,"2116-A Wayne Memorial Dr
+Goldsboro, NC 27534-1760
+(35.396923, -77.966504)",2116-A Wayne Memorial Dr,2116-A Wayne Memorial Dr,,Goldsboro,NC,27534-1760,US,"(35.396923, -77.966504)",35.396923,-77.966504,06/22/2012 06:32:13 PM
+Starbucks,9838,Goldsboro,Company Owned,10350,"Lunch, Oven-warmed Food",Starbucks Card Mobile,Drive-Through,9999,Unknown,919-778-7866,"603 North Berkeley Blvd
+Goldsboro, NC 27534-3443
+(35.375111, -77.943958)",603 North Berkeley Blvd,603 North Berkeley Blvd,,Goldsboro,NC,27534-3443,US,"(35.375111, -77.943958)",35.375111,-77.943958,06/22/2012 06:32:13 PM
+Starbucks,76570,Target Goldsboro T-964,Licensed,10150,,Starbucks Card Mobile,,9999,Unknown,919-778-2150,"1204 Sunburst Dr
+Goldsboro, NC 27534-8202
+(35.383091731535, -77.939741537765)",1204 Sunburst Dr,1204 Sunburst Dr,,Goldsboro,NC,27534-8202,US,"(35.383091731535, -77.939741537765)",35.383091731535,-77.939741537765,06/22/2012 06:32:13 PM
+Starbucks,76707,Target Wilson T-2168,Licensed,10149,,Starbucks Card Mobile,,9999,Unknown,252-265-4500,"3401 Raleigh Rd Pkwy W
+Wilson, NC 27896-8218
+(35.74037, -77.965275)",3401 Raleigh Rd Pkwy W,3401 Raleigh Rd Pkwy W,,Wilson,NC,27896-8218,US,"(35.74037, -77.965275)",35.74037,-77.965275,06/22/2012 06:32:13 PM
+Starbucks,13625,"Wilson, NC",Company Owned,7495,"Lunch, Oven-warmed Food","Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,252-293-1018,"3401 Raleigh Rd, Suite 10 D
+Wilson, NC 27896-8218
+(35.741164, -77.961716)","3401 Raleigh Rd, Suite 10 D",3401 Raleigh Rd,Suite 10 D,Wilson,NC,27896-8218,US,"(35.741164, -77.961716)",35.741164,-77.961716,06/22/2012 06:32:13 PM
+Starbucks,73885,Ingles-Asheville #7,Licensed,6408,,Wireless Hotspot,,9999,Unknown,828-255-8097,"29 Tunnel Rd
+Asheville, NC 28805-1229
+(35.595712, -82.53545)",29 Tunnel Rd,29 Tunnel Rd,,Asheville,NC,28805-1229,US,"(35.595712, -82.53545)",35.595712,-82.53545,06/22/2012 06:32:24 PM
+Starbucks,8962,Stanton Square,Company Owned,12574,"Lunch, Oven-warmed Food","Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,252-757-3180,"2205 W. Arlington Blvd., Unit A
+Greenville, NC 27834-7529
+(35.60592, -77.411932)","2205 W. Arlington Blvd., Unit A",2205 W. Arlington Blvd.,Unit A,Greenville,NC,27834-7529,US,"(35.60592, -77.411932)",35.60592,-77.411932,06/22/2012 06:32:15 PM
+Starbucks,16065,Harris Teeter-Greenville NC #362,Licensed,68422,,Wireless Hotspot,,0,Unknown,252-353-4400,"3040 EVANS ST
+Greenville, NC 27834
+(35.57753, -77.381674)",3040 EVANS ST,3040 EVANS ST,,Greenville,NC,27834,US,"(35.57753, -77.381674)",35.57753,-77.381674,06/22/2012 06:32:15 PM
+Starbucks,8582,Greenville,Company Owned,12703,"Lunch, Oven-warmed Food","Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,252-353-2537,"518-B Greenville Blvd. SE
+Greenville, NC 27858-6757
+(35.582526, -77.373666)",518-B Greenville Blvd. SE,518-B Greenville Blvd. SE,,Greenville,NC,27858-6757,US,"(35.582526, -77.373666)",35.582526,-77.373666,06/22/2012 06:32:15 PM
+Starbucks,72594,Harris Teeter-Greenville #287,Licensed,17337,,,,9999,Unknown,252-355-0125,"2020 E Firetower Rd
+Greenville, NC 27858-4134
+(35.560776, -77.363655)",2020 E Firetower Rd,2020 E Firetower Rd,,Greenville,NC,27858-4134,US,"(35.560776, -77.363655)",35.560776,-77.363655,06/22/2012 06:32:15 PM
+Starbucks,13481,East Carolina University,Company Owned,6798,"Lunch, Oven-warmed Food",Starbucks Card Mobile,Drive-Through,9999,Unknown,252-695-6435,"100 East 10th Street
+Greenville, NC 27858-3301
+(35.605518, -77.373838)",100 East 10th Street,100 East 10th Street,,Greenville,NC,27858-3301,US,"(35.605518, -77.373838)",35.605518,-77.373838,06/22/2012 06:32:15 PM
+Starbucks,3574,East Carolina University - Wright P,Licensed,19098,,Wireless Hotspot,,0,Unknown,252-328-4855,"100 Founders Wy
+Greenville, NC 27858435
+(35.5767, -77.336494)",100 Founders Wy,100 Founders Wy,,Greenville,NC,27858435,US,"(35.5767, -77.336494)",35.5767,-77.336494,06/22/2012 06:32:15 PM
+Starbucks,73729,Harris Teeter - New Bern #221,Licensed,18125,,Wireless Hotspot,,9999,Unknown,252-514-0060,"2019 S Glenburnie Road
+New Bern, NC 28562-5228
+(35.100909, -77.098161)",2019 S Glenburnie Road,2019 S Glenburnie Road,,New Bern,NC,28562-5228,US,"(35.100909, -77.098161)",35.100909,-77.098161,06/22/2012 06:32:15 PM
+Starbucks,76568,Target New Bern T-1015,Licensed,17523,,Starbucks Card Mobile,,9999,Unknown,252-638-2954,"3410 Dr Martin Luther King Blvd
+New Bern, NC 28562-5220
+(35.101679, -77.096398)",3410 Dr Martin Luther King Blvd,3410 Dr Martin Luther King Blvd,,New Bern,NC,28562-5220,US,"(35.101679, -77.096398)",35.101679,-77.096398,06/22/2012 06:32:15 PM
+Starbucks,9801,Jacksonville,Company Owned,7966,"Lunch, Oven-warmed Food","Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,910-455-8720,"370 Western Boulevard
+Jacksonville, NC 28546-6303
+(34.766991, -77.384236)",370 Western Boulevard,370 Western Boulevard,,Jacksonville,NC,28546-6303,US,"(34.766991, -77.384236)",34.766991,-77.384236,06/22/2012 06:32:15 PM
+Starbucks,11761,"Morehead City, NC",Company Owned,7457,Oven-warmed Food,Starbucks Card Mobile,Drive-Through,9999,Unknown,252-726-5758,"5186 Hwy 70, Unit A
+Morehead City, NC 28557
+(34.739188, -76.808545)","5186 Hwy 70, Unit A",5186 Hwy 70,Unit A,Morehead City,NC,28557,US,"(34.739188, -76.808545)",34.739188,-76.808545,06/22/2012 06:32:20 PM
+Starbucks,4185,Ingles-Morganton #120,Licensed,10904,,Wireless Hotspot,,9999,Unknown,828-437-9848,"114 Carbon City Rd
+Morganton, NC 28655-4226
+(35.736274, -81.714403)",114 Carbon City Rd,114 Carbon City Rd,,Morganton,NC,28655-4226,US,"(35.736274, -81.714403)",35.736274,-81.714403,06/22/2012 06:32:24 PM
+Starbucks,73927,Ingles-Flat Rock #177,Licensed,10473,,Wireless Hotspot,,9999,Unknown,828-692-1335,"220 Highland Lake Rd
+Flat Rock, NC 28731-8568
+(35.286389984995, -82.434080055025)",220 Highland Lake Rd,220 Highland Lake Rd,,Flat Rock,NC,28731-8568,US,"(35.286389984995, -82.434080055025)",35.286389984995,-82.434080055025,06/22/2012 06:32:24 PM
+Starbucks,4184,Ingles-Hendersonville #179,Licensed,19312,,Wireless Hotspot,,0,Unknown,828-696-2521,"3643 Howard Gap Rd
+Hendersonville, NC 28792-3164
+(35.34797, -82.43028)",3643 Howard Gap Rd,3643 Howard Gap Rd,,Hendersonville,NC,28792-3164,US,"(35.34797, -82.43028)",35.34797,-82.43028,06/22/2012 06:32:24 PM
+Starbucks,15941,Ingles-Black Mountain #8,Licensed,63181,,,,0,Unknown,828-669-6700,"550 HIGHWAY 9
+Black Mountain, NC 28711
+(35.608578, -82.317802)",550 HIGHWAY 9,550 HIGHWAY 9,,Black Mountain,NC,28711,US,"(35.608578, -82.317802)",35.608578,-82.317802,06/22/2012 06:32:24 PM
+Starbucks,79298,Ingles-Fletcher #43,Licensed,14534,,Wireless Hotspot,,9999,Unknown,828-684-5916,"6000 Hendersonville Rd
+Fletcher, NC 28732-9627
+(35.407276, -82.513662)",6000 Hendersonville Rd,6000 Hendersonville Rd,,Fletcher,NC,28732-9627,US,"(35.407276, -82.513662)",35.407276,-82.513662,06/22/2012 06:32:24 PM
+Starbucks,76409,Target Asheville T-2011,Licensed,9540,,Starbucks Card Mobile,,9999,Unknown,828-681-0341,"15 McKenna Rd
+Arden, NC 28704-9201
+(35.4607, -82.5322)",15 McKenna Rd,15 McKenna Rd,,Arden,NC,28704-9201,US,"(35.4607, -82.5322)",35.4607,-82.5322,06/22/2012 06:32:24 PM
+Starbucks,72571,Ingles-Asheville #30,Licensed,18232,,Wireless Hotspot,,9999,Unknown,828-274-0804,"1865 Hendersonville Rd
+Asheville, NC 28803-3217
+(35.50011, -82.523703)",1865 Hendersonville Rd,1865 Hendersonville Rd,,Asheville,NC,28803-3217,US,"(35.50011, -82.523703)",35.50011,-82.523703,06/22/2012 06:32:24 PM
+Starbucks,3921,Ingles-Asheville #4,Licensed,7554,,Wireless Hotspot,,9999,Unknown,828-298-3514,"1141 Tunnel Rd
+Asheville, NC 28805-2037
+(35.585771, -82.488352)",1141 Tunnel Rd,1141 Tunnel Rd,,Asheville,NC,28805-2037,US,"(35.585771, -82.488352)",35.585771,-82.488352,06/22/2012 06:32:24 PM
+Starbucks,2862,Parkway Centre,Company Owned,13824,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",Drive-Through,9999,Unknown,828-274-0586,"1378 Hendersonville Road
+Asheville, NC 28803-1957
+(35.523092, -82.528392)",1378 Hendersonville Road,1378 Hendersonville Road,,Asheville,NC,28803-1957,US,"(35.523092, -82.528392)",35.523092,-82.528392,06/22/2012 06:32:24 PM
+Starbucks,11420,Asheville Mall,Company Owned,17521,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,828-298-7188,"3 S Tunnel Road
+Asheville, NC 28805-2238
+(35.58081228991, -82.526689118339)",3 S Tunnel Road,3 S Tunnel Road,,Asheville,NC,28805-2238,US,"(35.58081228991, -82.526689118339)",35.58081228991,-82.526689118339,06/22/2012 06:32:24 PM
+Starbucks,72992,Ingles-Arden #130,Licensed,14790,,Wireless Hotspot,,9999,Unknown,828-681-5173,"301 Long Shoals Rd
+Arden, NC 28704-7713
+(35.479698, -82.549492)",301 Long Shoals Rd,301 Long Shoals Rd,,Arden,NC,28704-7713,US,"(35.479698, -82.549492)",35.479698,-82.549492,06/22/2012 06:32:24 PM
+Starbucks,8585,Biltmore Village,Company Owned,14411,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,828-277-3248,"40 All Souls Crescent Street
+Asheville, NC 28803-2670
+(35.566514, -82.54467)",40 All Souls Crescent Street,40 All Souls Crescent Street,,Asheville,NC,28803-2670,US,"(35.566514, -82.54467)",35.566514,-82.54467,06/22/2012 06:32:24 PM
+Starbucks,8598,Charlotte St.,Company Owned,12590,"Oven-warmed Food, Sirena Espresso Machine","Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,828-225-3753,"62 Charlotte Street
+Asheville, NC 28801-2434
+(35.601382, -82.547085)",62 Charlotte Street,62 Charlotte Street,,Asheville,NC,28801-2434,US,"(35.601382, -82.547085)",35.601382,-82.547085,06/22/2012 06:32:24 PM
+Starbucks,79308,Ingles-Asheville#3,Licensed,8080,,Wireless Hotspot,,9999,Unknown,828-253-1326,"915 Merrimon Ave
+Asheville, NC 28804-2304
+(35.630525, -82.552244)",915 Merrimon Ave,915 Merrimon Ave,,Asheville,NC,28804-2304,US,"(35.630525, -82.552244)",35.630525,-82.552244,06/22/2012 06:32:24 PM
+Starbucks,73930,Ingles - Weaverville #180,Licensed,10475,,Wireless Hotspot,,9999,Unknown,828-645-2902,"140 Weaver Blvd
+Weaverville, NC 28787-8345
+(35.702715, -82.566958)",140 Weaver Blvd,140 Weaver Blvd,,Weaverville,NC,28787-8345,US,"(35.702715, -82.566958)",35.702715,-82.566958,06/22/2012 06:32:24 PM
+Starbucks,3922,Ingles-Asheville #62,Licensed,7553,,Wireless Hotspot,,9999,Unknown,828-254-3496,"575 New Leicester Hwy
+Asheville, NC 28806-2122
+(35.614112, -82.631457)",575 New Leicester Hwy,575 New Leicester Hwy,,Asheville,NC,28806-2122,US,"(35.614112, -82.631457)",35.614112,-82.631457,06/22/2012 06:32:24 PM
+Starbucks,79222,Ingles-Brevard #67,Licensed,9678,,Wireless Hotspot,,9999,Unknown,828-883-2377,"710 N Broad St
+Brevard, NC 28712-3102
+(35.24057, -82.727133)",710 N Broad St,710 N Broad St,,Brevard,NC,28712-3102,US,"(35.24057, -82.727133)",35.24057,-82.727133,06/22/2012 06:32:26 PM
+Starbucks,3944,Ingles-Canton #55,Licensed,7552,,Wireless Hotspot,,9999,Unknown,828-648-3200,"630 Champion Dr
+Canton, NC 28716-3032
+(35.538994, -82.8446)",630 Champion Dr,630 Champion Dr,,Canton,NC,28716-3032,US,"(35.538994, -82.8446)",35.538994,-82.8446,06/22/2012 06:32:30 PM
+Starbucks,8478,Independence Mall,Company Owned,16168,,Starbucks Card Mobile,,9999,Unknown,910-784-9555,"3500 Oleander Dr, #1072
+Wilmington, NC 28403-0846
+(34.213431935944, -77.905519284294)","3500 Oleander Dr, #1072",3500 Oleander Dr,#1072,Wilmington,NC,28403-0846,US,"(34.213431935944, -77.905519284294)",34.213431935944,-77.905519284294,06/22/2012 06:32:37 PM
+Starbucks,8518,College Street,Company Owned,16396,"Oven-warmed Food, Sirena Espresso Machine","Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,910-798-9677,"317-1 S. College Road, 317
+Wilmington, NC 28403-1601
+(34.236162, -77.872381)","317-1 S. College Road, 317",317-1 S. College Road,317,Wilmington,NC,28403-1601,US,"(34.236162, -77.872381)",34.236162,-77.872381,06/22/2012 06:32:37 PM
+Starbucks,5061,Harris Teeter - Wilmington #441,Licensed,10920,,,,9999,Unknown,910-791-1392,"2800 S College Rd
+Wilmington, NC 28412-6827
+(34.198700940495, -77.892025595903)",2800 S College Rd,2800 S College Rd,,Wilmington,NC,28412-6827,US,"(34.198700940495, -77.892025595903)",34.198700940495,-77.892025595903,06/22/2012 06:32:37 PM
+Starbucks,8544,Mayfaire Towne Centre,Company Owned,14232,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,910-256-2097,"1005 International Drive
+Wilmington, NC 28405-4176
+(34.242121, -77.828527)",1005 International Drive,1005 International Drive,,Wilmington,NC,28405-4176,US,"(34.242121, -77.828527)",34.242121,-77.828527,06/22/2012 06:32:37 PM
+Starbucks,8487,Landfall,Company Owned,8908,Oven-warmed Food,"Starbucks Card Mobile, Wireless Hotspot",,9999,Unknown,910-509-0332,"1705 Eastwood Rd, Ste 5E2
+Wilmington, NC 28403-3640
+(34.230532, -77.834232)","1705 Eastwood Rd, Ste 5E2",1705 Eastwood Rd,Ste 5E2,Wilmington,NC,28403-3640,US,"(34.230532, -77.834232)",34.230532,-77.834232,06/22/2012 06:32:37 PM
+Starbucks,73925,Ingles-Waynesville #23,Licensed,10474,,Wireless Hotspot,,9999,Unknown,828-456-7599,"201 Barber Blvd
+Waynesville, NC 28786-2872
+(35.504061, -82.988091)",201 Barber Blvd,201 Barber Blvd,,Waynesville,NC,28786-2872,US,"(35.504061, -82.988091)",35.504061,-82.988091,06/22/2012 06:32:42 PM
+Starbucks,75441,Western Carolina University -Center,Licensed,10733,,Wireless Hotspot,,9999,Unknown,,"517 Centennial Drive
+Cullowhee, NC 28723
+(35.309831, -83.183592)",517 Centennial Drive,517 Centennial Drive,,Cullowhee,NC,28723,US,"(35.309831, -83.183592)",35.309831,-83.183592,06/22/2012 06:32:42 PM
