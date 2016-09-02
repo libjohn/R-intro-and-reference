@@ -54,9 +54,21 @@ We will use many of the Hadleyverse packages in this workshop.  A selection of H
 R is a popular programming environment with embedded statistical capabilities.  The [R] language is also popular as a data science toolset.  If you want to read more about the origins and definitions of [R] try starting at the [Wikipedia entry](https://en.wikipedia.org/wiki/R_(programming_language)).  Our focus in this introduction will develop your skills working in the [RStudio](https://www.rstudio.com/) IDE (development environment), data reshaping, generating cross tablulations, and generating rudimentary visualizations.   
 
 # The Wow Factor
-First, let's check out some cook visualizations accomplished in [R] with with minimal code.  The examples below come from [5 data visualizations in 5 minutes: each in 5 lines or less of R](http://www.computerworld.com/article/2893271/business-intelligence/5-data-visualizations-in-5-minutes-each-in-5-lines-or-less-of-r.html) by Sharon Machlis[^5]
+First, let's check a supper niffty cool visualizations accomplished in [R] with with minimal code.  The example  below is inspired and derived from by [5 data visualizations in 5 minutes: each in 5 lines or less of R](http://www.computerworld.com/article/2893271/business-intelligence/5-data-visualizations-in-5-minutes-each-in-5-lines-or-less-of-r.html) by Sharon Machlis[^5]
 
-There are 5 separate "Wow" factor visuzlisations in the [output directory](../output).  Check them out.  Or if you just want to see the code, look in the [scripts](../scripts) directory.  (for best viewing results clone the [github repository](https://github.com/libjohn/R-intro-and-reference))
+```{r coolmap}
+require(readr) ; require(leaflet); library(magrittr)
+
+starbucks <- read_csv("https://opendata.socrata.com/api/views/ddym-zvjk/rows.csv")
+
+tbl_df(starbucks)  %>%  
+  filter(State == "NC") -> starbucks
+
+leaflet() %>% 
+  addTiles() %>% 
+  setView(-78.8310, 35.9867, zoom = 10) %>% 
+  addMarkers(data = starbucks, lat = ~ Latitude, lng = ~ Longitude, popup = starbucks$Name)
+```
 
 
 # Data Structure Types 
@@ -381,7 +393,7 @@ To generate
 * Scatterplot: `plot(mtcars$wt, mtcars$mpg)`
 * Barplot:  `barplot(table(mtcars$cyl))`
 
-## plot() - Scatter Plot
+### plot() - Scatter Plot
 `plot()` will generate a scatter plot.  To demonstrate this I'll introduce a new dataset, Egar Anderson's Iris Data.  The data contains the measurements in centimeters of various flowers: variable sepal and petal measurements in length and width for 50 flowers from each of 3 species of iris. You can find more information about this dataset by typing `?iris` in the console pane.  The scatter plot example comes from Peter Cock's guide to plotting in [R][^11] which will cover the `plot` command in greater detail. 
 
 ```{r}
@@ -395,24 +407,24 @@ plot(iris$Petal.Length, iris$Petal.Width, main="Edgar Anderson's Iris Data")
 ```
 
 
-## hist() - Histogram
+### hist() - Histogram
 ```{r}
 hist(iris$Petal.Width)
 ```
 
-## barplot() - Bar Plot
+### barplot() - Bar Plot
 ```{r}
 sixcyls <- filter(four.six, cyl == 6)
 barplot(table(sixcyls$make))          # for categorical data
 barplot(table(sixcyls$make), horiz = TRUE)
 ```
 
-## mosaicplot() - Mosaic Plot
+### mosaicplot() - Mosaic Plot
 ```{r}
 mosaicplot(table(smokerdata))
 ```
 
-## Better Vis (i.e. ggPlot2)
+## BETTER Vis (i.e. ggPlot2)
 ### ggplot2 Scatter Plot
 ```{r ggplot}
 ggplot(mtcars, aes(x=wt, y=mpg)) +
