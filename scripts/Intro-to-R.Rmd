@@ -465,9 +465,16 @@ ggplot(mtcars, aes(x=wt, y=mpg)) +
 
 ### ggplot2 Bar Graph
 ```{r ggbarplot}
-ggplot(data=mtcars, aes(x=cyl)) +
+ggplot(mtcars, aes(x = cyl)) +
+    geom_bar(stat="bin")
+```
+
+```{r ggbarplot2}
+mutate(mtcars, cyl = factor(cyl, labels = c("four","six","eight"))) %>% 
+  ggplot(aes(x = cyl)) +
     geom_bar(stat="count")
 ```
+
 
 [More Information on ggplot bar and line graphs](http://www.cookbook-r.com/Graphs/Bar_and_line_graphs_(ggplot2)/)
 
@@ -505,6 +512,7 @@ ggplot(data=mtcars, aes(x=mpg, y=wt, group=cyl, colour=cyl)) +
 ## Solutions to common tasks and problems in analyzing data.
 * [Cookbook for R](http://www.cookbook-r.com/)
 * [Quick-R](http://www.statmethods.net/)
+* [RSeek - modified google search of r](http://rseek.org/)
 
 
 #### Shareable under CC BY-NC-SA license 
