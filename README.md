@@ -16,6 +16,6 @@ The sections are:
 10. Resources
 11. References
 
-I recommend reading the [HTML version](http://htmlpreview.github.com/?https://github.com/libjohn/R-intro-and-reference/blob/master/output/Intro_to_R.html) of the document (found in the _output_ directory)
+I recommend reading the [HTML version](http://rpubs.com/libjohn/intro2r) of the Intro-to-R.Rmd script
 
 Another good option is to load and run the Rmarkdown script, found in the _scripts_ directory.
