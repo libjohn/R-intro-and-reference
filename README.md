@@ -1,6 +1,6 @@
 # Introduction to [R]
 
-I drafted this [Intro to R document](http://htmlpreview.github.com/?https://github.com/libjohn/R-intro-and-reference/blob/master/output/Intro_to_R.html) to answer questions I hear most frequently from new [R] users.  The focus is geared toward beginners who need to use [R] for data-smithing. There is more emphasis on data wrangling and little on statistical methodology.  
+I drafted this [Intro to R document](http://rpubs.com/libjohn/intro2r) to answer questions I hear most frequently from new [R] users.  The focus is geared toward beginners who need to use [R] for data-smithing. There is more emphasis on data wrangling and little on statistical methodology.  
 
 The sections are:
 
