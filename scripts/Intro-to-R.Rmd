@@ -10,7 +10,7 @@ output:
     highlight: pygments
 ---
 <!-- render("scripts/Intro-to-R.Rmd", output_file = 'Intro2R.html', output_dir = "output"  ) -->
-```{r}
+```{r echo=FALSE}
 last.edited <- Sys.Date()
 preamble <- "This document was last updated"
 modified.date <- paste(preamble, last.edited, sep = " ")
