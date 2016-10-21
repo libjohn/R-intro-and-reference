@@ -251,12 +251,12 @@ div.tocify {
 </div>
 
 
-<!-- render("Intro-to-R.Rmd", output_file = 'Intro2R.html', output_dir = "output"  ) -->
+<!-- render("scripts/Intro-to-R.Rmd", output_file = 'Intro2R.html', output_dir = "output"  ) -->
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">last.edited &lt;-<span class="st"> </span><span class="kw">Sys.Date</span>()
 preamble &lt;-<span class="st"> &quot;This document was last updated&quot;</span>
 modified.date &lt;-<span class="st"> </span><span class="kw">paste</span>(preamble, last.edited, <span class="dt">sep =</span> <span class="st">&quot; &quot;</span>)
 modified.date</code></pre></div>
-<pre><code>## [1] &quot;This document was last updated 2016-09-14&quot;</code></pre>
+<pre><code>## [1] &quot;This document was last updated 2016-10-21&quot;</code></pre>
 <p>The intended audience are newbies who just wanna start playing around with with [R]. The first section below simply loads preliminary [R] packages. If you don’t need to know this now, <strong>Skip ahead</strong> to <a href="#begin">Begin - Intro to R</a>.</p>
 <div id="library-packages" class="section level2">
 <h2><span class="header-section-number">0.1</span> Library Packages</h2>
@@ -273,12 +273,26 @@ modified.date</code></pre></div>
 
 
 <span class="co"># Load packages required for this workshop</span>
-<span class="kw">require</span>(rmarkdown)  <span class="co"># R specific implementation of markdown.  helpful in generating an HTML output document - https://github.com/hadley/rmarkdown</span>
-<span class="kw">require</span>(readr)      <span class="co"># read tabular data into R - https://github.com/hadley/readr</span>
-<span class="kw">require</span>(dplyr)      <span class="co"># working with data frames - https://github.com/hadley/dplyr</span>
-<span class="kw">require</span>(ggplot2)    <span class="co"># popular visualization package - https://github.com/hadley/ggplot2</span>
-<span class="kw">require</span>(stringr)
-<span class="kw">require</span>(stringi)</code></pre></div>
+<span class="kw">require</span>(rmarkdown)  <span class="co"># R specific implementation of markdown.  helpful in generating an HTML output document - https://github.com/hadley/rmarkdown</span></code></pre></div>
+<pre><code>## Loading required package: rmarkdown</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">require</span>(readr)      <span class="co"># read tabular data into R - https://github.com/hadley/readr</span></code></pre></div>
+<pre><code>## Loading required package: readr</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">require</span>(dplyr)      <span class="co"># working with data frames - https://github.com/hadley/dplyr</span></code></pre></div>
+<pre><code>## Loading required package: dplyr</code></pre>
+<pre><code>## 
+## Attaching package: 'dplyr'</code></pre>
+<pre><code>## The following objects are masked from 'package:stats':
+## 
+##     filter, lag</code></pre>
+<pre><code>## The following objects are masked from 'package:base':
+## 
+##     intersect, setdiff, setequal, union</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">require</span>(ggplot2)    <span class="co"># popular visualization package - https://github.com/hadley/ggplot2</span></code></pre></div>
+<pre><code>## Loading required package: ggplot2</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">require</span>(stringr)</code></pre></div>
+<pre><code>## Loading required package: stringr</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">require</span>(stringi)</code></pre></div>
+<pre><code>## Loading required package: stringi</code></pre>
 </div>
 <div id="hadleyverse" class="section level2">
 <h2><span class="header-section-number">0.2</span> Hadleyverse</h2>
@@ -292,9 +306,9 @@ modified.date</code></pre></div>
 <div id="the-wow-factor" class="section level1">
 <h1><span class="header-section-number">2</span> The Wow Factor</h1>
 <p>First, let’s check out a supper niffty cool visualizations accomplished in [R] with with minimal code. The example below is inspired and derived from by <a href="http://www.computerworld.com/article/2893271/business-intelligence/5-data-visualizations-in-5-minutes-each-in-5-lines-or-less-of-r.html">5 data visualizations in 5 minutes: each in 5 lines or less of R</a> by Sharon Machlis<a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a></p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">require</span>(readr) ; <span class="kw">require</span>(leaflet); <span class="kw">library</span>(magrittr)
-
-starbucks &lt;-<span class="st"> </span><span class="kw">read_csv</span>(<span class="st">&quot;https://opendata.socrata.com/api/views/ddym-zvjk/rows.csv&quot;</span>)</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">require</span>(readr) ; <span class="kw">require</span>(leaflet); <span class="kw">library</span>(magrittr)</code></pre></div>
+<pre><code>## Loading required package: leaflet</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">starbucks &lt;-<span class="st"> </span><span class="kw">read_csv</span>(<span class="st">&quot;https://opendata.socrata.com/api/views/ddym-zvjk/rows.csv&quot;</span>)</code></pre></div>
 <pre><code>## Parsed with column specification:
 ## cols(
 ##   .default = col_character(),
@@ -312,8 +326,8 @@ starbucks &lt;-<span class="st"> </span><span class="kw">read_csv</span>(<span c
 <span class="st">  </span><span class="kw">addTiles</span>() %&gt;%<span class="st"> </span>
 <span class="st">  </span><span class="kw">setView</span>(-<span class="fl">78.8310</span>, <span class="fl">35.9867</span>, <span class="dt">zoom =</span> <span class="dv">10</span>) %&gt;%<span class="st"> </span>
 <span class="st">  </span><span class="kw">addMarkers</span>(<span class="dt">data =</span> starbucks, <span class="dt">lat =</span> ~<span class="st"> </span>Latitude, <span class="dt">lng =</span> ~<span class="st"> </span>Longitude, <span class="dt">popup =</span> starbucks$Name)</code></pre></div>
-<div id="htmlwidget-5d8825c84e08ced13cda" style="width:672px;height:480px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-5d8825c84e08ced13cda">{"x":{"calls":[{"method":"addTiles","args":["http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"maxNativeZoom":null,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"continuousWorld":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":null,"unloadInvisibleTiles":null,"updateWhenIdle":null,"detectRetina":false,"reuseTiles":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap\u003c/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA\u003c/a>"}]},{"method":"addMarkers","args":[[36.290986,36.4324,36.098345,35.97197,35.974413,35.942808,35.904805,36.05782,35.900957,35.86614,35.87,35.887792,36.018821,36.008233,35.966583,35.960793,35.9022,35.954334,35.899313,35.918291,35.904636,35.936579,35.904151,35.913425,36.111169,36.187928,36.168168,36.144274,36.116346,36.1135,36.090028,36.099605,36.070825,36.073309,36.061965345769,36.022618,36.1097,36.108744,36.107419,36.148827,36.113057,36.088795,36.035749,36.088789,36.114698,36.130846,36.08943,36.085215,36.073131,36.079403,36.076192,36.068164,36.066375,36.039256,36.003126,35.969505,35.984404,35.983203,35.936497,36.202817,35.903890222735,35.903457,35.879388,35.878075,35.86751,35.830889,35.8607,35.820702,35.821637,35.827473,35.789277,35.790275,35.798662,35.771485,35.866987,35.855155,35.840769,35.839892,35.837278,35.836979,35.825389,35.821364,35.81609,35.791568,35.788439,35.774788,35.659434,35.791573,35.597898,35.594695,35.586007,35.602279,35.553712,35.554,35.43958,35.4303,35.499757,35.4074,35.417343,35.480825,35.47901,35.441991,35.443201,35.445244,35.366514,35.368564,35.443626,35.406499,35.3376,35.335231353853,35.310509424668,35.350023,35.304368004861,35.349971,35.312736963213,35.296011,35.751159,35.716251,35.233675,35.227881,35.227223,35.22509,35.222108,35.215054,35.212474,35.205783,35.202104,35.225266,35.225266,35.223362,35.22234,35.222019,35.222019,35.20134,35.220864,35.177035,35.171695,35.153411,35.262558,35.151763,35.128033,35.124233,35.123244,35.136851,35.1466,35.037449,35.117067,35.136613,35.096528,35.108352,35.088668,35.078109,35.12141,35.085543486551,35.066452,35.064602414154,35.103176,35.060222,35.058606,35.048485,35.055269,35.038753012201,35.022479,35.022333,35.020195,35.02301,35.0024,35.7373,35.737651,35.74425,35.762809,35.760541,35.649803,35.74668,35.746163,35.59222,35.663618,35.1571,35.149009,35.1455,35.074773,35.055141,35.045708,35.039023,35.798746,35.666005,35.7905,34.686154,35.396923,35.375111,35.383091731535,35.74037,35.741164,35.595712,35.60592,35.57753,35.582526,35.560776,35.605518,35.5767,35.100909,35.101679,34.766991,34.739188,35.736274,35.286389984995,35.34797,35.608578,35.407276,35.4607,35.50011,35.585771,35.523092,35.58081228991,35.479698,35.566514,35.601382,35.630525,35.702715,35.614112,35.24057,35.538994,34.213431935944,34.236162,34.198700940495,34.242121,34.230532,35.504061,35.309831],[-76.25259,-77.6388,-75.724577,-77.813097,-78.541991,-78.540942,-78.601879,-78.929413,-78.652882,-78.567968,-78.5861,-78.678749,-78.948098,-78.937415,-78.958499,-78.958121,-78.7894,-78.993956,-78.897146,-78.958331,-78.937232,-79.025396,-78.953058,-79.055433,-79.880369,-80.27681,-80.276999,-80.300479,-80.312628,-80.2422,-80.282711,-80.247472,-80.339134,-80.29815,-80.307374,-80.381471,-80.099338,-80.0981,-80.094942,-79.869942,-79.878673,-79.890911,-79.962595,-79.885732,-79.835548,-79.798979,-79.81047,-79.837067,-79.776031,-79.490552,-79.488787,-79.52042,-79.519907,-79.837098,-79.793084,-79.92739,-80.01928,-80.023799,-79.14553,-81.662142,-79.04123,-79.051587,-78.847073,-78.792716,-78.804044,-79.086669,-78.7928,-78.90107,-78.847563,-78.770416,-78.870563,-78.852011,-78.795089,-78.762595,-78.621966,-78.700929,-78.679576,-78.643005,-78.642336,-78.642734,-78.707322,-78.591832,-78.693753,-78.662107,-78.647872,-78.63939,-80.460856,-80.861833,-80.871582,-80.868041,-80.875827,-80.896216,-80.8376,-80.854221,-80.605924,-80.6981,-80.86515,-80.7135,-80.744026,-80.883066,-80.894325,-80.856969,-80.861728,-80.880399,-80.709736,-80.719334,-80.895806,-80.863818,-80.757498,-80.810719091691,-80.745600132383,-80.852318,-80.732194020946,-80.859331,-80.771127163784,-80.739109,-81.335837,-81.313706,-80.850512,-80.84284,-80.843007,-80.843285,-80.845329,-80.833313,-80.817908,-80.838679,-80.82453,-80.92908,-80.92908,-80.927864,-80.924987,-80.924792,-80.924792,-80.843366,-80.944687,-80.799365,-80.847605,-80.825224,-81.133543,-80.830711,-80.70285,-80.70762,-80.709135,-80.904203,-80.947296,-80.808173,-80.823797,-80.937139,-80.784604,-80.87873,-80.871236,-80.817006,-81.010805,-80.880704975751,-80.771746,-80.772236645657,-80.986348,-80.813466,-80.813197,-80.64703,-80.851382,-80.805980058543,-80.761232,-80.579055,-80.581336,-80.848201,-80.734,-78.8677,-78.862797,-78.823135,-78.782697,-78.741012,-78.81633,-78.743422,-78.741863,-78.774999,-78.6999,-79.4133,-79.036164,-78.9904,-78.962521,-78.974908,-78.9243,-78.935074,-78.560782,-78.497977,-78.5024,-79.204911,-77.966504,-77.943958,-77.939741537765,-77.965275,-77.961716,-82.53545,-77.411932,-77.381674,-77.373666,-77.363655,-77.373838,-77.336494,-77.098161,-77.096398,-77.384236,-76.808545,-81.714403,-82.434080055025,-82.43028,-82.317802,-82.513662,-82.5322,-82.523703,-82.488352,-82.528392,-82.526689118339,-82.549492,-82.54467,-82.547085,-82.552244,-82.566958,-82.631457,-82.727133,-82.8446,-77.905519284294,-77.872381,-77.892025595903,-77.828527,-77.834232,-82.988091,-83.183592],null,null,null,{"clickable":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["Farm Fresh-Elizabeth City #469","Roanoke Rapids","Kitty Hawk","Target Rocky Mount T-962","Super Target Wake Forest ST-1504","Wakefield Commons","Village @ Falls Pointe","Guess Road","Six Forks & Strickland","Super Target Raleigh ST-1826","Triangle Towne Mall","Stonehenge","Kroger - Durham #332","Duke University Hospital","Super Target-Durham ST-1872","The Commons - HT","Alexander Place","Mount Moriah","Parkwest Crossing, NC","Harris Teeter - Durham #224","Renaissance Center at South Point","Eastgate - Chapel Hill","Super Target Durham SE ST-2069","Franklin Street","Jefferson Village","University Parkway","Target Winston-Salem North T-1077","Reynolda Road","Mt. Tabor Place","Wake Forest University Z. Smith Rey","Stratford Road","Embassy Suites Winston-Salem","Jonestown Rd.","Hanes Mall Kiosk","Hanes Mall Blvd.","Clemmons","Target Kernersville T-2134","Kernersville","Harris Teeter-Kernersville #250","Battleground Ave & Old Battleground","Target Greensboro West T-2108","Harris Teeter Greensboro #33","Shoppes at Deep River","Guilford College","Battleground Village","Patriots Place","Shops on Battleground","Friendly - HT","North Carolina A & T State Univ","Harris Teeter-Burlington # 345","Burlington Mall","University Commons","Target Burlington T-2037","Four Seasons Towne Centre","South Elm & I-85","Furnitureland South","Harris Teeter - High Point #341","High Point, NC","Harris Teeter-Chapel Hill #117","Harris Teeter-Boone #165","UNC at Chapel Hill - Rams Head Cent","UNC Hospital","Imperial Corners","RDU Terminal C Central Atrium","RDU-Terminal 1","Harris Teeter-Chapel Hill #137","RDU Terminal C Presecurity","Harris Teeter-Cary #298","Grace Park","Weston Parkway","High House Road","Harris Teeter-Cary #138","Evans Road","Cary Towne Center","Falls of Neuse","Pleasant Valley Promenade","Crabtree Valley Mall","North Hills Plaza","Target Raleigh  Central T-1892","North Hills Center","Old Raleigh Village","Capital Blvd.","Lake Boone Trail","Cameron Village - HT","Glenwood & Peace","Marriott Downtown Raleigh","Towne Creek Commons","Statesville","Super Target Mooresville ST-1505","Mooresville","Harris Teeter-Mooresville #99","Harris Teeter - Mooresville #274","Target Morrisville T-2721","Mount Mourne","Concord, Hwy 29","SuperTarget Kannapolis ST-2169","Harris Teeter-Davidson # 268","Kannapolis Parkway","Harris Teeter-Concord #190","Lake Norman Blvd.","Harris Teeter-Cornelius #179","Sam Furr Rd & Hwy 115","Target Huntersville T-966","Birkdale","Speedway Blvd.","Concord Mills II","Teeter-Huntersville #272","Rosedale","The Arbors","Davis Lake Commons","Mallard Pointe","Northlake Mall","University of North Carolina Charlo","SuperTarget Charlotte North ST-2080","Wachovia Bank","Harris-Teeter-Charlotte #258","Hickory North","Lenoir Rhyne Blvd & I-40","Gateway Village","Bank of America Plaza","Independence","Charlotte Plaza","Charlotte Convention Center","Target Charlotte Midtown T-2244","7th Street","Carolina Medical (Kiosk)","Providence Road","CLT - Main C/D Side Bookstore","CLT - Concourse D/E Connector","CLT Terminal E","CLT - Charlotte C-13-","CLT - Term B-Gate 12, Gift/News","CLT - Charlotte Main Term Bookstore","East Blvd","CLT- Main Terminal Pre Security","Cotswold Village Shops","Park Towne Village","Morrocroft Village - HT","Target Gastonia T-2565","South Park Mall","Sycamore Commons","Target Charlotte SE T-918","Harris Teeter-Matthews #157","Arrowood Road","Super Target Charlotte ST-2132","Target Charlotte Far South T-2090","Olde Towne Village","Whitehall","Harris Teeter Charlotte #30","Target Pineville T-762","Carolinas Medical South","Piper Glen","Harris Teeter-S Tryon Charlotte #88","Carolina Place Mall","Harris Teeter-Charlotte #45","Promenade","Rivergate","Target Charlotte T-1087","Stonecrest","Sun Valley","Ballantyne","Blakeney","Harris Teeter - Matthews #343","Hwy 74 & Windmere - Monroe","Target Monroe  T-2074","Harris Teeter-Charlotte # 317","Target Wesley Chapel T-2395","Super Target Apex ST-1932","Harris Teeter-Apex #58","Kroger-Apex #357","Cary Central","Crossroads Blvd & Caitboo Ave","Harris Teeter-Holly Springs #118","Harris Teeter-Cary # 330","Tryon Village","Hwy 401 & Purfoy Rd","Harris Teeter-Garner #283","Aberdeen, NC","Fort Bragg - North Post","Fort Bragg - Mini Mall","Cross Creek","Target Fayetteville T-755","Harris Teeter-Fayetteville #25","Walter Reed Road","New Bern Commons","Clayton, NC","Target Knightdale T-2111","UNC Pembroke","Wayne Memorial Dr & Hwy 70","Goldsboro","Target Goldsboro T-964","Target Wilson T-2168","Wilson, NC","Ingles-Asheville #7","Stanton Square","Harris Teeter-Greenville NC #362","Greenville","Harris Teeter-Greenville #287","East Carolina University","East Carolina University - Wright P","Harris Teeter - New Bern #221","Target New Bern T-1015","Jacksonville","Morehead City, NC","Ingles-Morganton #120","Ingles-Flat Rock #177","Ingles-Hendersonville #179","Ingles-Black Mountain #8","Ingles-Fletcher #43","Target Asheville T-2011","Ingles-Asheville #30","Ingles-Asheville #4","Parkway Centre","Asheville Mall","Ingles-Arden #130","Biltmore Village","Charlotte St.","Ingles-Asheville#3","Ingles - Weaverville #180","Ingles-Asheville #62","Ingles-Brevard #67","Ingles-Canton #55","Independence Mall","College Street","Harris Teeter - Wilmington #441","Mayfaire Towne Centre","Landfall","Ingles-Waynesville #23","Western Carolina University -Center"],null,null]}],"setView":[[35.9867,-78.831],10,[]],"limits":{"lat":[34.198700940495,36.4324],"lng":[-83.183592,-75.724577]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-3e3d4a18f838cc17b6a8" style="width:672px;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-3e3d4a18f838cc17b6a8">{"x":{"calls":[{"method":"addTiles","args":["http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"maxNativeZoom":null,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"continuousWorld":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":null,"unloadInvisibleTiles":null,"updateWhenIdle":null,"detectRetina":false,"reuseTiles":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap\u003c/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA\u003c/a>"}]},{"method":"addMarkers","args":[[36.290986,36.4324,36.098345,35.97197,35.974413,35.942808,35.904805,36.05782,35.900957,35.86614,35.87,35.887792,36.018821,36.008233,35.966583,35.960793,35.9022,35.954334,35.899313,35.918291,35.904636,35.936579,35.904151,35.913425,36.111169,36.187928,36.168168,36.144274,36.116346,36.1135,36.090028,36.099605,36.070825,36.073309,36.061965345769,36.022618,36.1097,36.108744,36.107419,36.148827,36.113057,36.088795,36.035749,36.088789,36.114698,36.130846,36.08943,36.085215,36.073131,36.079403,36.076192,36.068164,36.066375,36.039256,36.003126,35.969505,35.984404,35.983203,35.936497,36.202817,35.903890222735,35.903457,35.879388,35.878075,35.86751,35.830889,35.8607,35.820702,35.821637,35.827473,35.789277,35.790275,35.798662,35.771485,35.866987,35.855155,35.840769,35.839892,35.837278,35.836979,35.825389,35.821364,35.81609,35.791568,35.788439,35.774788,35.659434,35.791573,35.597898,35.594695,35.586007,35.602279,35.553712,35.554,35.43958,35.4303,35.499757,35.4074,35.417343,35.480825,35.47901,35.441991,35.443201,35.445244,35.366514,35.368564,35.443626,35.406499,35.3376,35.335231353853,35.310509424668,35.350023,35.304368004861,35.349971,35.312736963213,35.296011,35.751159,35.716251,35.233675,35.227881,35.227223,35.22509,35.222108,35.215054,35.212474,35.205783,35.202104,35.225266,35.225266,35.223362,35.22234,35.222019,35.222019,35.20134,35.220864,35.177035,35.171695,35.153411,35.262558,35.151763,35.128033,35.124233,35.123244,35.136851,35.1466,35.037449,35.117067,35.136613,35.096528,35.108352,35.088668,35.078109,35.12141,35.085543486551,35.066452,35.064602414154,35.103176,35.060222,35.058606,35.048485,35.055269,35.038753012201,35.022479,35.022333,35.020195,35.02301,35.0024,35.7373,35.737651,35.74425,35.762809,35.760541,35.649803,35.74668,35.746163,35.59222,35.663618,35.1571,35.149009,35.1455,35.074773,35.055141,35.045708,35.039023,35.798746,35.666005,35.7905,34.686154,35.396923,35.375111,35.383091731535,35.74037,35.741164,35.595712,35.60592,35.57753,35.582526,35.560776,35.605518,35.5767,35.100909,35.101679,34.766991,34.739188,35.736274,35.286389984995,35.34797,35.608578,35.407276,35.4607,35.50011,35.585771,35.523092,35.58081228991,35.479698,35.566514,35.601382,35.630525,35.702715,35.614112,35.24057,35.538994,34.213431935944,34.236162,34.198700940495,34.242121,34.230532,35.504061,35.309831],[-76.25259,-77.6388,-75.724577,-77.813097,-78.541991,-78.540942,-78.601879,-78.929413,-78.652882,-78.567968,-78.5861,-78.678749,-78.948098,-78.937415,-78.958499,-78.958121,-78.7894,-78.993956,-78.897146,-78.958331,-78.937232,-79.025396,-78.953058,-79.055433,-79.880369,-80.27681,-80.276999,-80.300479,-80.312628,-80.2422,-80.282711,-80.247472,-80.339134,-80.29815,-80.307374,-80.381471,-80.099338,-80.0981,-80.094942,-79.869942,-79.878673,-79.890911,-79.962595,-79.885732,-79.835548,-79.798979,-79.81047,-79.837067,-79.776031,-79.490552,-79.488787,-79.52042,-79.519907,-79.837098,-79.793084,-79.92739,-80.01928,-80.023799,-79.14553,-81.662142,-79.04123,-79.051587,-78.847073,-78.792716,-78.804044,-79.086669,-78.7928,-78.90107,-78.847563,-78.770416,-78.870563,-78.852011,-78.795089,-78.762595,-78.621966,-78.700929,-78.679576,-78.643005,-78.642336,-78.642734,-78.707322,-78.591832,-78.693753,-78.662107,-78.647872,-78.63939,-80.460856,-80.861833,-80.871582,-80.868041,-80.875827,-80.896216,-80.8376,-80.854221,-80.605924,-80.6981,-80.86515,-80.7135,-80.744026,-80.883066,-80.894325,-80.856969,-80.861728,-80.880399,-80.709736,-80.719334,-80.895806,-80.863818,-80.757498,-80.810719091691,-80.745600132383,-80.852318,-80.732194020946,-80.859331,-80.771127163784,-80.739109,-81.335837,-81.313706,-80.850512,-80.84284,-80.843007,-80.843285,-80.845329,-80.833313,-80.817908,-80.838679,-80.82453,-80.92908,-80.92908,-80.927864,-80.924987,-80.924792,-80.924792,-80.843366,-80.944687,-80.799365,-80.847605,-80.825224,-81.133543,-80.830711,-80.70285,-80.70762,-80.709135,-80.904203,-80.947296,-80.808173,-80.823797,-80.937139,-80.784604,-80.87873,-80.871236,-80.817006,-81.010805,-80.880704975751,-80.771746,-80.772236645657,-80.986348,-80.813466,-80.813197,-80.64703,-80.851382,-80.805980058543,-80.761232,-80.579055,-80.581336,-80.848201,-80.734,-78.8677,-78.862797,-78.823135,-78.782697,-78.741012,-78.81633,-78.743422,-78.741863,-78.774999,-78.6999,-79.4133,-79.036164,-78.9904,-78.962521,-78.974908,-78.9243,-78.935074,-78.560782,-78.497977,-78.5024,-79.204911,-77.966504,-77.943958,-77.939741537765,-77.965275,-77.961716,-82.53545,-77.411932,-77.381674,-77.373666,-77.363655,-77.373838,-77.336494,-77.098161,-77.096398,-77.384236,-76.808545,-81.714403,-82.434080055025,-82.43028,-82.317802,-82.513662,-82.5322,-82.523703,-82.488352,-82.528392,-82.526689118339,-82.549492,-82.54467,-82.547085,-82.552244,-82.566958,-82.631457,-82.727133,-82.8446,-77.905519284294,-77.872381,-77.892025595903,-77.828527,-77.834232,-82.988091,-83.183592],null,null,null,{"clickable":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["Farm Fresh-Elizabeth City #469","Roanoke Rapids","Kitty Hawk","Target Rocky Mount T-962","Super Target Wake Forest ST-1504","Wakefield Commons","Village @ Falls Pointe","Guess Road","Six Forks & Strickland","Super Target Raleigh ST-1826","Triangle Towne Mall","Stonehenge","Kroger - Durham #332","Duke University Hospital","Super Target-Durham ST-1872","The Commons - HT","Alexander Place","Mount Moriah","Parkwest Crossing, NC","Harris Teeter - Durham #224","Renaissance Center at South Point","Eastgate - Chapel Hill","Super Target Durham SE ST-2069","Franklin Street","Jefferson Village","University Parkway","Target Winston-Salem North T-1077","Reynolda Road","Mt. Tabor Place","Wake Forest University Z. Smith Rey","Stratford Road","Embassy Suites Winston-Salem","Jonestown Rd.","Hanes Mall Kiosk","Hanes Mall Blvd.","Clemmons","Target Kernersville T-2134","Kernersville","Harris Teeter-Kernersville #250","Battleground Ave & Old Battleground","Target Greensboro West T-2108","Harris Teeter Greensboro #33","Shoppes at Deep River","Guilford College","Battleground Village","Patriots Place","Shops on Battleground","Friendly - HT","North Carolina A & T State Univ","Harris Teeter-Burlington # 345","Burlington Mall","University Commons","Target Burlington T-2037","Four Seasons Towne Centre","South Elm & I-85","Furnitureland South","Harris Teeter - High Point #341","High Point, NC","Harris Teeter-Chapel Hill #117","Harris Teeter-Boone #165","UNC at Chapel Hill - Rams Head Cent","UNC Hospital","Imperial Corners","RDU Terminal C Central Atrium","RDU-Terminal 1","Harris Teeter-Chapel Hill #137","RDU Terminal C Presecurity","Harris Teeter-Cary #298","Grace Park","Weston Parkway","High House Road","Harris Teeter-Cary #138","Evans Road","Cary Towne Center","Falls of Neuse","Pleasant Valley Promenade","Crabtree Valley Mall","North Hills Plaza","Target Raleigh  Central T-1892","North Hills Center","Old Raleigh Village","Capital Blvd.","Lake Boone Trail","Cameron Village - HT","Glenwood & Peace","Marriott Downtown Raleigh","Towne Creek Commons","Statesville","Super Target Mooresville ST-1505","Mooresville","Harris Teeter-Mooresville #99","Harris Teeter - Mooresville #274","Target Morrisville T-2721","Mount Mourne","Concord, Hwy 29","SuperTarget Kannapolis ST-2169","Harris Teeter-Davidson # 268","Kannapolis Parkway","Harris Teeter-Concord #190","Lake Norman Blvd.","Harris Teeter-Cornelius #179","Sam Furr Rd & Hwy 115","Target Huntersville T-966","Birkdale","Speedway Blvd.","Concord Mills II","Teeter-Huntersville #272","Rosedale","The Arbors","Davis Lake Commons","Mallard Pointe","Northlake Mall","University of North Carolina Charlo","SuperTarget Charlotte North ST-2080","Wachovia Bank","Harris-Teeter-Charlotte #258","Hickory North","Lenoir Rhyne Blvd & I-40","Gateway Village","Bank of America Plaza","Independence","Charlotte Plaza","Charlotte Convention Center","Target Charlotte Midtown T-2244","7th Street","Carolina Medical (Kiosk)","Providence Road","CLT - Main C/D Side Bookstore","CLT - Concourse D/E Connector","CLT Terminal E","CLT - Charlotte C-13-","CLT - Term B-Gate 12, Gift/News","CLT - Charlotte Main Term Bookstore","East Blvd","CLT- Main Terminal Pre Security","Cotswold Village Shops","Park Towne Village","Morrocroft Village - HT","Target Gastonia T-2565","South Park Mall","Sycamore Commons","Target Charlotte SE T-918","Harris Teeter-Matthews #157","Arrowood Road","Super Target Charlotte ST-2132","Target Charlotte Far South T-2090","Olde Towne Village","Whitehall","Harris Teeter Charlotte #30","Target Pineville T-762","Carolinas Medical South","Piper Glen","Harris Teeter-S Tryon Charlotte #88","Carolina Place Mall","Harris Teeter-Charlotte #45","Promenade","Rivergate","Target Charlotte T-1087","Stonecrest","Sun Valley","Ballantyne","Blakeney","Harris Teeter - Matthews #343","Hwy 74 & Windmere - Monroe","Target Monroe  T-2074","Harris Teeter-Charlotte # 317","Target Wesley Chapel T-2395","Super Target Apex ST-1932","Harris Teeter-Apex #58","Kroger-Apex #357","Cary Central","Crossroads Blvd & Caitboo Ave","Harris Teeter-Holly Springs #118","Harris Teeter-Cary # 330","Tryon Village","Hwy 401 & Purfoy Rd","Harris Teeter-Garner #283","Aberdeen, NC","Fort Bragg - North Post","Fort Bragg - Mini Mall","Cross Creek","Target Fayetteville T-755","Harris Teeter-Fayetteville #25","Walter Reed Road","New Bern Commons","Clayton, NC","Target Knightdale T-2111","UNC Pembroke","Wayne Memorial Dr & Hwy 70","Goldsboro","Target Goldsboro T-964","Target Wilson T-2168","Wilson, NC","Ingles-Asheville #7","Stanton Square","Harris Teeter-Greenville NC #362","Greenville","Harris Teeter-Greenville #287","East Carolina University","East Carolina University - Wright P","Harris Teeter - New Bern #221","Target New Bern T-1015","Jacksonville","Morehead City, NC","Ingles-Morganton #120","Ingles-Flat Rock #177","Ingles-Hendersonville #179","Ingles-Black Mountain #8","Ingles-Fletcher #43","Target Asheville T-2011","Ingles-Asheville #30","Ingles-Asheville #4","Parkway Centre","Asheville Mall","Ingles-Arden #130","Biltmore Village","Charlotte St.","Ingles-Asheville#3","Ingles - Weaverville #180","Ingles-Asheville #62","Ingles-Brevard #67","Ingles-Canton #55","Independence Mall","College Street","Harris Teeter - Wilmington #441","Mayfaire Towne Centre","Landfall","Ingles-Waynesville #23","Western Carolina University -Center"],null,null]}],"setView":[[35.9867,-78.831],10,[]],"limits":{"lat":[34.198700940495,36.4324],"lng":[-83.183592,-75.724577]}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div id="data-structure-types" class="section level1">
 <h1><span class="header-section-number">3</span> Data Structure Types</h1>
@@ -525,47 +539,47 @@ unempdata &lt;-<span class="st"> </span><span class="kw">read_csv</span>(fullpat
 <h2><span class="header-section-number">6.7</span> head() - show top rows</h2>
 <p>Identify the top rows of the data object.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">head</span>(unempdata)</code></pre></div>
-<pre><code>## # A tibble: 6 × 6
-##      ID `recode: any discrimination` `lost my job` underemployed
-##   &lt;int&gt;                        &lt;chr&gt;         &lt;chr&gt;         &lt;chr&gt;
-## 1     1                          Yes            No            No
-## 2     2                          Yes            No            No
-## 3     3                          Yes            No            No
-## 4     4                          Yes            No            No
-## 5     5                          Yes            No           Yes
-## 6     6                          Yes            No            No
-## # ... with 2 more variables: `removed from direct contact with
-## #   clients` &lt;chr&gt;, `denied a promotion` &lt;chr&gt;</code></pre>
+<pre><code>## # A tibble: 6 x 6
+##      ID recode: any discrimination lost my job underemployed
+##   &lt;int&gt;                      &lt;chr&gt;       &lt;chr&gt;         &lt;chr&gt;
+## 1     1                        Yes          No            No
+## 2     2                        Yes          No            No
+## 3     3                        Yes          No            No
+## 4     4                        Yes          No            No
+## 5     5                        Yes          No           Yes
+## 6     6                        Yes          No            No
+## # ... with 2 more variables: removed from direct contact with
+## #   clients &lt;chr&gt;, denied a promotion &lt;chr&gt;</code></pre>
 </div>
 <div id="tail---show-last-rows" class="section level2">
 <h2><span class="header-section-number">6.8</span> tail() - show last rows</h2>
 <p>Identify the bottom twenty rows of the data object</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">tail</span>(unempdata, <span class="dv">20</span>)   <span class="co"># in this case, show the last 20 rows</span></code></pre></div>
-<pre><code>## # A tibble: 20 × 6
-##       ID `recode: any discrimination`  `lost my job`  underemployed
-##    &lt;int&gt;                        &lt;chr&gt;          &lt;chr&gt;          &lt;chr&gt;
-## 1     31                          Yes             No             No
-## 2     32                          Yes            Yes             No
-## 3     33                          Yes Not Applicable Not Applicable
-## 4     34                          Yes Not Applicable Not Applicable
-## 5     35                          Yes Not Applicable Not Applicable
-## 6     36                          Yes             No             No
-## 7     37                          Yes Not Applicable Not Applicable
-## 8     38                          Yes             No            Yes
-## 9     39                          Yes             No            Yes
-## 10    40                          Yes             No            Yes
-## 11    41                          Yes             No Not Applicable
-## 12    42                          Yes             No             No
-## 13    43                          Yes             No             No
-## 14    44                          Yes            Yes            Yes
-## 15    45                          Yes            Yes            Yes
-## 16    46                          Yes            Yes             No
-## 17    47                          Yes             No            Yes
-## 18    48                          Yes             No             No
-## 19    49                          Yes             No             No
-## 20    50                          Yes             No             No
-## # ... with 2 more variables: `removed from direct contact with
-## #   clients` &lt;chr&gt;, `denied a promotion` &lt;chr&gt;</code></pre>
+<pre><code>## # A tibble: 20 x 6
+##       ID recode: any discrimination    lost my job  underemployed
+##    &lt;int&gt;                      &lt;chr&gt;          &lt;chr&gt;          &lt;chr&gt;
+## 1     31                        Yes             No             No
+## 2     32                        Yes            Yes             No
+## 3     33                        Yes Not Applicable Not Applicable
+## 4     34                        Yes Not Applicable Not Applicable
+## 5     35                        Yes Not Applicable Not Applicable
+## 6     36                        Yes             No             No
+## 7     37                        Yes Not Applicable Not Applicable
+## 8     38                        Yes             No            Yes
+## 9     39                        Yes             No            Yes
+## 10    40                        Yes             No            Yes
+## 11    41                        Yes             No Not Applicable
+## 12    42                        Yes             No             No
+## 13    43                        Yes             No             No
+## 14    44                        Yes            Yes            Yes
+## 15    45                        Yes            Yes            Yes
+## 16    46                        Yes            Yes             No
+## 17    47                        Yes             No            Yes
+## 18    48                        Yes             No             No
+## 19    49                        Yes             No             No
+## 20    50                        Yes             No             No
+## # ... with 2 more variables: removed from direct contact with
+## #   clients &lt;chr&gt;, denied a promotion &lt;chr&gt;</code></pre>
 </div>
 <div id="summary---get-summary-statistics-when-available" class="section level2">
 <h2><span class="header-section-number">6.9</span> summary() - get summary statistics when available</h2>
@@ -628,21 +642,21 @@ unempdata &lt;-<span class="st"> </span><span class="kw">read_csv</span>(fullpat
 <h2><span class="header-section-number">7.1</span> tbl_df</h2>
 <p><code>tbl_df()</code> provides a convenient summary of the characteristics of a data frame object. This function has similarity with <code>str()</code> and many of the functions covered in the preceding section.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">tbl_df</span>(unempdata)</code></pre></div>
-<pre><code>## # A tibble: 50 × 6
-##       ID `recode: any discrimination`  `lost my job`  underemployed
-##    &lt;int&gt;                        &lt;chr&gt;          &lt;chr&gt;          &lt;chr&gt;
-## 1      1                          Yes             No             No
-## 2      2                          Yes             No             No
-## 3      3                          Yes             No             No
-## 4      4                          Yes             No             No
-## 5      5                          Yes             No            Yes
-## 6      6                          Yes             No             No
-## 7      7                          Yes            Yes Not Applicable
-## 8      8                          Yes Not Applicable Not Applicable
-## 9      9                          Yes             No Not Applicable
-## 10    10                          Yes             No             No
-## # ... with 40 more rows, and 2 more variables: `removed from direct
-## #   contact with clients` &lt;chr&gt;, `denied a promotion` &lt;chr&gt;</code></pre>
+<pre><code>## # A tibble: 50 x 6
+##       ID recode: any discrimination    lost my job  underemployed
+##    &lt;int&gt;                      &lt;chr&gt;          &lt;chr&gt;          &lt;chr&gt;
+## 1      1                        Yes             No             No
+## 2      2                        Yes             No             No
+## 3      3                        Yes             No             No
+## 4      4                        Yes             No             No
+## 5      5                        Yes             No            Yes
+## 6      6                        Yes             No             No
+## 7      7                        Yes            Yes Not Applicable
+## 8      8                        Yes Not Applicable Not Applicable
+## 9      9                        Yes             No Not Applicable
+## 10    10                        Yes             No             No
+## # ... with 40 more rows, and 2 more variables: removed from direct contact
+## #   with clients &lt;chr&gt;, denied a promotion &lt;chr&gt;</code></pre>
 </div>
 <div id="rename---edit-column-names" class="section level2">
 <h2><span class="header-section-number">7.2</span> rename() - edit column names</h2>
@@ -683,7 +697,7 @@ unempdata &lt;-<span class="st"> </span><span class="kw">read_csv</span>(fullpat
 <pre><code>## [1] &quot;character&quot;</code></pre>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">unempdata$no_job &lt;-<span class="st"> </span><span class="kw">as.logical</span>(unempdata$no_job)
 <span class="kw">tbl_df</span>(unempdata)</code></pre></div>
-<pre><code>## # A tibble: 50 × 6
+<pre><code>## # A tibble: 50 x 6
 ##       ID discriminate no_job  underemployed     no_clients      promotion
 ##    &lt;chr&gt;        &lt;chr&gt;  &lt;lgl&gt;          &lt;chr&gt;          &lt;chr&gt;          &lt;chr&gt;
 ## 1    001          Yes  FALSE             No            Yes             No
@@ -714,9 +728,11 @@ unempdata &lt;-<span class="st"> </span><span class="kw">read_csv</span>(fullpat
 <p><code>filter()</code> can take multiple arguments (e.g. cyl &gt;= 4, cyl &lt;= 6)</p>
 <p><strong>Note</strong>: We’re using a new data set</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">data</span>(<span class="st">&quot;mtcars&quot;</span>)      <span class="co"># load the onboard mtcars dataset, part of base-R </span>
-?mtcars           <span class="co"># get more information about this dataset in the help pane</span>
-<span class="kw">tbl_df</span>(mtcars)</code></pre></div>
-<pre><code>## # A tibble: 32 × 11
+?mtcars           <span class="co"># get more information about this dataset in the help pane</span></code></pre></div>
+<pre><code>## starting httpd help server ...</code></pre>
+<pre><code>##  done</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">tbl_df</span>(mtcars)</code></pre></div>
+<pre><code>## # A tibble: 32 x 11
 ##      mpg   cyl  disp    hp  drat    wt  qsec    vs    am  gear  carb
 ## *  &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
 ## 1   21.0     6 160.0   110  3.90 2.620 16.46     0     1     4     4
@@ -735,7 +751,7 @@ unempdata &lt;-<span class="st"> </span><span class="kw">read_csv</span>(fullpat
 <p>Make a custom data frame called “four.six” that consists of only the four and six cylinder cars</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">four.six &lt;-<span class="st"> </span><span class="kw">filter</span>(mtcars, mtcars$cyl &lt;<span class="dv">8</span>)      <span class="co">#filter out 8 cylinder cars and make a new data.frame &quot;four.six&quot;</span>
 <span class="kw">tbl_df</span>(four.six)                               <span class="co">#Alas!  now rownames</span></code></pre></div>
-<pre><code>## # A tibble: 18 × 11
+<pre><code>## # A tibble: 18 x 11
 ##      mpg   cyl  disp    hp  drat    wt  qsec    vs    am  gear  carb
 ##    &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
 ## 1   21.0     6 160.0   110  3.90 2.620 16.46     0     1     4     4
@@ -777,7 +793,7 @@ four.six &lt;-<span class="st"> </span><span class="kw">mutate</span>(four.six,
   <span class="dt">wtdisp =</span> disp /<span class="st"> </span>wt
 )                                                            <span class="co"># augment data</span>
 <span class="kw">tbl_df</span>(four.six)</code></pre></div>
-<pre><code>## # A tibble: 18 × 8
+<pre><code>## # A tibble: 18 x 8
 ##         makeModel   mpg   cyl  disp    hp  drat    wt   wtdisp
 ##             &lt;chr&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;    &lt;dbl&gt;
 ## 1       Mazda RX4  21.0     6 160.0   110  3.90 2.620 61.06870
@@ -900,7 +916,7 @@ smokerdata &lt;-<span class="st"> </span><span class="kw">read_csv</span>(<span 
 ##   SES = col_character()
 ## )</code></pre>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">tbl_df</span>(smokerdata)            <span class="co"># Note the structure of the data</span></code></pre></div>
-<pre><code>## # A tibble: 356 × 2
+<pre><code>## # A tibble: 356 x 2
 ##     Smoke   SES
 ##     &lt;chr&gt; &lt;chr&gt;
 ## 1  former  High
@@ -939,7 +955,7 @@ smokerdata &lt;-<span class="st"> </span><span class="kw">read_csv</span>(<span 
 
 <span class="kw">tbl_df</span>(four.six) %&gt;%<span class="st"> </span>
 <span class="st">  </span><span class="kw">count</span>(hp)</code></pre></div>
-<pre><code>## # A tibble: 14 × 2
+<pre><code>## # A tibble: 14 x 2
 ##       hp     n
 ##    &lt;dbl&gt; &lt;int&gt;
 ## 1     52     1
@@ -975,7 +991,7 @@ smokerdata &lt;-<span class="st"> </span><span class="kw">read_csv</span>(<span 
 <p><code>plot()</code> will generate a scatter plot. To demonstrate this I’ll introduce a new dataset, Egar Anderson’s Iris Data. The data contains the measurements in centimeters of various flowers: variable sepal and petal measurements in length and width for 50 flowers from each of 3 species of iris. You can find more information about this dataset by typing <code>?iris</code> in the console pane. The scatter plot example comes from Peter Cock’s guide to plotting in [R]<a href="#fn7" class="footnoteRef" id="fnref7"><sup>7</sup></a> which will cover the <code>plot</code> command in greater detail.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">data</span>(<span class="st">&quot;iris&quot;</span>)        <span class="co"># get the iris data</span>
 <span class="kw">tbl_df</span>(iris)        <span class="co"># get some summary characteristics of the data frame</span></code></pre></div>
-<pre><code>## # A tibble: 150 × 5
+<pre><code>## # A tibble: 150 x 5
 ##    Sepal.Length Sepal.Width Petal.Length Petal.Width Species
 ##           &lt;dbl&gt;       &lt;dbl&gt;        &lt;dbl&gt;       &lt;dbl&gt;  &lt;fctr&gt;
 ## 1           5.1         3.5          1.4         0.2  setosa
@@ -1073,12 +1089,14 @@ smokerdata &lt;-<span class="st"> </span><span class="kw">read_csv</span>(<span 
 <li><a href="http://www.twotorials.com/">twotorials</a></li>
 </ol>
 </div>
-<div id="comprehensive-online-learning" class="section level2">
-<h2><span class="header-section-number">10.2</span> Comprehensive online learning</h2>
+<div id="online-tutorials" class="section level2">
+<h2><span class="header-section-number">10.2</span> Online tutorials</h2>
 <ol style="list-style-type: decimal">
 <li><a href="http://www.datacarpentry.org/R-ecology-lesson/">Data Carpentry</a> - Text-based lessons aimed at the research environment and designed for people with no programming experience</li>
 <li><a href="https://www.datacamp.com/courses">DataCamp.com</a> - This free, interactive, online workshop tool helps you master the basics. It can be hard to fully grok all the atomistic demands of [R]; this workshop will help</li>
 <li><a href="https://www.lynda.com/R-training-tutorials/1570-0.html">Lynda Online Training</a> - Includes video description. Duke University Users, use the <a href="http://oit.duke.edu/comp-print/training/online/lynda.php">Duke login</a></li>
+<li><a href="https://www.r-bloggers.com/how-to-learn-r-2/">R-bloggers: R tutorials</a> - a cornucopia of useful information on a variety of topics</li>
+<li><a href="http://ropensci.org/">rOpenSci</a></li>
 </ol>
 </div>
 <div id="solutions-to-common-tasks-and-problems-in-analyzing-data." class="section level2">

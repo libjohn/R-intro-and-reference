@@ -9,7 +9,7 @@ output:
     theme: readable
     highlight: pygments
 ---
-<!-- render("Intro-to-R.Rmd", output_file = 'Intro2R.html', output_dir = "output"  ) -->
+<!-- render("scripts/Intro-to-R.Rmd", output_file = 'Intro2R.html', output_dir = "output"  ) -->
 ```{r}
 last.edited <- Sys.Date()
 preamble <- "This document was last updated"
@@ -504,10 +504,12 @@ ggplot(data=mtcars, aes(x=mpg, y=wt, group=cyl, colour=cyl)) +
 1. [r-exercises](http://r-exercises.com/start-here-to-learn-r/)
 2. [twotorials](http://www.twotorials.com/)
 
-## Comprehensive online learning 
+## Online tutorials
 1. [Data Carpentry](http://www.datacarpentry.org/R-ecology-lesson/) - Text-based lessons aimed at the research environment and designed for people with no programming experience
 2. [DataCamp.com](https://www.datacamp.com/courses) - This free, interactive, online workshop tool helps you master the basics.  It can be hard to fully grok all the atomistic demands of [R]; this workshop will help
 3. [Lynda Online Training](https://www.lynda.com/R-training-tutorials/1570-0.html) - Includes video description.  Duke University Users, use the [Duke login](http://oit.duke.edu/comp-print/training/online/lynda.php)
+4. [R-bloggers: R tutorials](https://www.r-bloggers.com/how-to-learn-r-2/)  - a cornucopia of useful information on a variety of topics
+5. [rOpenSci](http://ropensci.org/)
 
 ## Solutions to common tasks and problems in analyzing data.
 * [Cookbook for R](http://www.cookbook-r.com/)
